@@ -17,12 +17,32 @@ function daysSinceLaunch() {
   return Math.max(0, Math.round((todayUTC - launchUTC) / msPerDay));
 }
 
+// Which day is being played; null = today. Archive playback sets this.
+let playingDay = null;
+
+function effectiveDay() {
+  return playingDay === null ? daysSinceLaunch() : playingDay;
+}
+
+function entryForDay(day) {
+  return EPISODE_SCHEDULE[day % EPISODE_SCHEDULE.length];
+}
+
 function todaysEpisodeEntry() {
-  return EPISODE_SCHEDULE[daysSinceLaunch() % EPISODE_SCHEDULE.length];
+  return entryForDay(effectiveDay());
 }
 
 function episodeNumber() {
-  return daysSinceLaunch() + 1;
+  return effectiveDay() + 1;
+}
+
+function shuffled(array) {
+  const a = array.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 const app = document.getElementById("app");
@@ -90,9 +110,11 @@ function render() {
   else if (state.screen === "decision") renderDecision();
   else if (state.screen === "reveal") renderReveal();
   else if (state.screen === "ending") renderEnding();
+  else if (state.screen === "archive") renderArchive();
 }
 
 function renderTitle() {
+  playingDay = null; // title screen always means "today"
   const data = loadStorage();
   const el = document.createElement("div");
   el.className = "screen title-screen";
@@ -231,7 +253,9 @@ function renderDecision() {
       </div>
     </div>
     <div class="choices">
-      ${decision.choices.map((c, i) => `<button class="choice-btn" data-idx="${i}">${c.text}</button>`).join("")}
+      ${shuffled(decision.choices.map((_, i) => i))
+        .map((i) => `<button class="choice-btn" data-idx="${i}">${decision.choices[i].text}</button>`)
+        .join("")}
     </div>
   `;
   app.appendChild(el);
@@ -364,6 +388,7 @@ function renderEnding() {
     <div class="emoji-grid" id="emoji-grid">${emojiGrid()}</div>
     <div class="btn-row">
       <button class="btn btn-primary" id="share-btn">Share result</button>
+      <button class="btn btn-secondary" id="archive-btn">📼 Archive — past episodes</button>
       <div class="cta-card">
         <span class="cta-ticker">${state.episode.endings.ctaTicker}</span>${state.episode.endings.ctaLine}
       </div>
@@ -374,9 +399,56 @@ function renderEnding() {
   countUp(document.getElementById("your-val"), yourValuation);
 
   document.getElementById("share-btn").onclick = () => shareResult(yourValuation);
+  document.getElementById("archive-btn").onclick = () => {
+    state.screen = "archive";
+    render();
+  };
 
   recordCompletion();
   render.calledEnding = true;
+}
+
+async function renderArchive() {
+  const el = document.createElement("div");
+  el.className = "screen archive-screen";
+  el.innerHTML = `
+    <div class="archive-title">📼 Episode Archive</div>
+    <div class="archive-list" id="archive-list"><div class="archive-loading">Loading…</div></div>
+  `;
+  app.appendChild(el);
+
+  const today = daysSinceLaunch();
+  const rows = await Promise.all(
+    Array.from({ length: today + 1 }, async (_, day) => {
+      const res = await fetch(`episodes/${entryForDay(day).classic}.json`);
+      const ep = await res.json();
+      return { day, ep };
+    })
+  );
+  rows.reverse(); // newest first
+
+  const list = document.getElementById("archive-list");
+  if (!list) return; // user navigated away while loading
+  list.innerHTML = rows
+    .map(
+      ({ day, ep }) => `
+      <button class="choice-btn archive-row" data-day="${day}">
+        <span class="archive-ep">Episode ${day + 1}${day === today ? " — Today" : ""}</span>
+        <span class="archive-meta">${ep.company}, ${ep.year} &middot; ${ep.mode === "villain" ? "Villain 😈" : "Legend 👑"}</span>
+      </button>`
+    )
+    .join("");
+
+  list.querySelectorAll(".archive-row").forEach((btn) => {
+    btn.onclick = async () => {
+      playingDay = Number(btn.dataset.day);
+      state.variant = "classic";
+      state.episode = await loadEpisode("classic");
+      setAccent(state.episode.accent);
+      state.screen = "intro";
+      render();
+    };
+  });
 }
 
 function countUp(node, targetStr) {

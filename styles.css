@@ -526,3 +526,40 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+
+/* ---------- Archive screen ---------- */
+.archive-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.archive-loading {
+  color: var(--fg-dim);
+  font-size: 14px;
+}
+
+.archive-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.archive-ep {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.archive-meta {
+  color: var(--fg-dim);
+  font-size: 13px;
+}
