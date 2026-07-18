@@ -1,0 +1,166 @@
+{
+  "id": "apple-1997",
+  "mode": "legend",
+  "company": "Apple",
+  "year": 1997,
+  "accent": "#c7c7cc",
+  "intro": "July 1997. Apple is 90 days from bankruptcy. Market share is 3% and falling. The board just fired Gil Amelio, and a co-founder you exiled twelve years ago is back in the building as an 'advisor.' You take the chair he's circling.",
+  "realOutcome": {
+    "valuation": "$3T+ — most valuable company on Earth",
+    "summary": "Jobs' 1997-1998 decisions became the most famous corporate turnaround in history. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Steve Jobs", "foil": "Gil Amelio" },
+  "startValuationB": 2.3,
+  "finalRealValuationB": 16,
+  "decisions": [
+    {
+      "scenario": "Apple licenses Mac OS to clone makers like Power Computing. Clones are outselling Macs at the low end and cannibalizing your margins — but killing the program means war with partners and less market share.",
+      "year": 1997,
+      "realValuationB": 2.3,
+      "choices": [
+        {
+          "text": "Kill the clone program. Buy out Power Computing.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "This is what Jobs did within weeks — paid $100M for Power Computing and shut the rest down. Margins recovered immediately. 'The clone business was killing Apple.'"
+        },
+        {
+          "text": "Expand licensing. Market share is everything.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: You become a low-margin software vendor competing with Microsoft at Microsoft's own game. Apple's hardware business bleeds out by 2001."
+        },
+        {
+          "text": "Keep it but raise the license fees sharply.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: Clone makers sue, partners flee, and you get the war anyway — just slower and with worse press. Half-measures don't save companies 90 days from broke."
+        }
+      ]
+    },
+    {
+      "scenario": "Microsoft — mid antitrust siege, needing Apple alive as proof of 'competition' — offers $150M investment plus a 5-year Office-for-Mac commitment. Your faithful will see it as surrender to the enemy.",
+      "year": 1997,
+      "realValuationB": 2.5,
+      "choices": [
+        {
+          "text": "Take the deal. Announce it on the Boston keynote screen.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Jobs did exactly this — Gates' giant face loomed over Macworld Boston as the crowd booed. It guaranteed Office on Mac, and the $150M signaled Apple would live. The stock jumped 33% that day."
+        },
+        {
+          "text": "Refuse. Apple doesn't take charity from Redmond.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.5,
+          "reveal": "ALTERNATE TIMELINE: Microsoft quietly sunsets Office for Mac. Corporate buyers flee a platform with no spreadsheets. Pride is not a runway extension."
+        },
+        {
+          "text": "Counter: demand $500M and IE off the Mac.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: Gates, who needs this deal less than you do, walks. You spent your one lifeline negotiating for a better lifeline."
+        }
+      ]
+    },
+    {
+      "scenario": "Apple ships 40+ overlapping products — Performas, Quadras, printers, the Newton. Engineers can't explain the lineup to their own families. Every product has a team, a VP, and a constituency.",
+      "year": 1997,
+      "realValuationB": 2.8,
+      "choices": [
+        {
+          "text": "Cut to 4 products: consumer/pro × desktop/laptop.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "Jobs drew a 2x2 grid on a whiteboard and killed everything outside it — including the Newton. 70% of the product line died. Focus is saying no; the survivors became the iMac and PowerBook."
+        },
+        {
+          "text": "Trim to 15 products gradually to protect morale.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: Each product keeps its lobbying VP, the burn rate barely moves, and 'gradually' turns out to be a speed bankruptcy doesn't respect."
+        },
+        {
+          "text": "Keep the lineup but cut every team's budget 30%.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.65,
+          "reveal": "ALTERNATE TIMELINE: Forty mediocre products become forty bad ones. You've distributed the death evenly instead of choosing what lives."
+        }
+      ]
+    },
+    {
+      "scenario": "The board wants you as permanent CEO with a big salary and options package. Taking it means owning the turnaround publicly — and Pixar's board wants to know where your loyalty sits.",
+      "year": 1997,
+      "realValuationB": 3.2,
+      "choices": [
+        {
+          "text": "Take 'interim CEO' at $1/year. Keep both jobs.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Jobs stayed 'iCEO' at a $1 salary until 2000. The non-title bought him political cover to make brutal cuts, and the $1 salary became the most famous compensation package in business."
+        },
+        {
+          "text": "Take the full CEO package. Commit completely.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.1,
+          "reveal": "ALTERNATE TIMELINE: It works fine — but the optics of a rich-package CEO firing thousands buys you angrier headlines and a touchier board through the hard cuts."
+        },
+        {
+          "text": "Decline. Recruit an outside CEO, stay advisor.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: The outside hire is Amelio with better hair. The product cuts stall in committee, and the guy who could have saved Apple watches from the advisor's seat."
+        }
+      ]
+    },
+    {
+      "scenario": "Your ad budget is nearly gone. The agency pitches a brand campaign with zero product shots — just Einstein, Gandhi, and Dylan, and the line 'Think Different.' Marketing says you need to sell computers, not philosophy.",
+      "year": 1998,
+      "realValuationB": 5.5,
+      "choices": [
+        {
+          "text": "Run it. Then bet the company on a translucent all-in-one.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.8,
+          "reveal": "Think Different rebuilt the brand's soul; the Bondi-blue iMac (August 1998) became the fastest-selling computer in Apple history — 800,000 units in five months. The turnaround was real."
+        },
+        {
+          "text": "Run product ads. Spec sheets and price points.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You win a few spec arguments against beige boxes with better specs and lower prices. Apple without a soul is just a worse Dell."
+        },
+        {
+          "text": "Skip ads entirely. Put every dollar into R&D.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: The iMac still ships, but launches into silence. Great products don't sell themselves when the world has already written your obituary."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$16B", "line": "You matched the greatest turnaround ever executed. Legend episode: WON."},
+      {"minWorked": 2, "valuation": "$4B", "line": "Alive, but limping into the dot-com crash. No iPod money in this timeline."},
+      {"minWorked": 0, "valuation": "$0", "line": "Apple dies in 1998. Michael Dell said to shut it down and give the money back — you proved him right. 💀"}
+    ],
+    "ctaTicker": "AAPL",
+    "ctaLine": "Apple 1000x'd after this fork. Today's agents flagged a company at a similar crossroads →"
+  }
+}

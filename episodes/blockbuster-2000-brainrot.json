@@ -1,0 +1,166 @@
+{
+  "id": "blockbuster-2000-brainrot",
+  "mode": "villain",
+  "company": "Blockbuster",
+  "year": 2000,
+  "accent": "#f6b800",
+  "intro": "March 2000. You're the Blockbuster CEO and you're literally undefeated — 9,000 stores, $800M a year in late fees, market cap $5B+. Then some guy named Reed pulls up asking for a meeting about his little DVD-mail side quest.",
+  "realOutcome": {
+    "valuation": "$0 — Chapter 11, September 2010",
+    "summary": "Blockbuster filed for bankruptcy in 2010 and got fully liquidated by 2014. Every 'what actually happened' below is 100% real, no cap, in order."
+  },
+  "identity": { "historic": "John Antioco", "foil": "Reed Hastings" },
+  "startValuationB": 5,
+  "finalRealValuationB": 0,
+  "decisions": [
+    {
+      "scenario": "Reed Hastings flies to Dallas and offers to sell you Netflix for $50M, proposing to run it as your online arm. Your execs start laughing before he finishes the sentence.",
+      "year": 2000,
+      "realValuationB": 5,
+      "choices": [
+        {
+          "text": "Buy him out. $50M is lunch money, secure the bag.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 3.0,
+          "reveal": "ALTERNATE TIMELINE: Blockbuster.com launches on Netflix's own engine years early and the streaming wars never happen because there's only one king. GG."
+        },
+        {
+          "text": "Laugh him out of the building, DVD-mail is a joke",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "This is literally what happened. Antioco's team called the $50M offer a joke and sent Reed packing. Netflix is now worth roughly 400x what you refused to pay for it. Certified L."
+        },
+        {
+          "text": "Counter with 'nah keep the brand, just gimme the tech'",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: Netflix takes your money, keeps building the exact same company under their own name anyway. You just funded your own final boss."
+        }
+      ]
+    },
+    {
+      "scenario": "Late fees are printing $800M a year, roughly a third of your entire profit. Customers despise them with their whole chest. Netflix has zero.",
+      "year": 2000,
+      "realValuationB": 4.5,
+      "choices": [
+        {
+          "text": "Kill late fees company-wide today, no notes",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You eat the earnings hit early and rebuild the whole brand on trust, torching Netflix's best talking point years before it can hurt you."
+        },
+        {
+          "text": "Keep milking it, it's a third of our bag",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "This is exactly what happened — until 2005, when you finally caved. Five years too late, and it cost a $630M settlement over fees buried in the fine print. Rent free in the lawyers' heads."
+        },
+        {
+          "text": "Rename it 'convenience fee' and hope nobody notices",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: Nobody's fooled for one second. Customers clock the rebrand instantly and the backlash is worse than just admitting it was a cash grab. Ratio'd."
+        }
+      ]
+    },
+    {
+      "scenario": "2005: activist investor Carl Icahn joins the board demanding cost cuts and dividends now. Your CEO Antioco wants to keep pouring money into the online fight. Boardroom beef, live and uncut.",
+      "year": 2005,
+      "realValuationB": 3,
+      "choices": [
+        {
+          "text": "Ride with Antioco, keep funding the online war",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "ALTERNATE TIMELINE: Sustained investment means Blockbuster Online actually has the infrastructure to compete when streaming pops off, instead of getting gutted right before the fight matters."
+        },
+        {
+          "text": "Side with Icahn, Antioco's out, bring in a 7-Eleven guy",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.55,
+          "reveal": "This is exactly what happened. Antioco resigned in 2007, replaced by Jim Keyes, who said in 2008: 'Netflix, Redbox, and Video On Demand don't scare us.' Two years later, bankruptcy. He was cooked and didn't know it."
+        },
+        {
+          "text": "Split the difference, half-cut costs, half-keep the bet",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: The compromise pleases literally nobody. Icahn keeps pushing, the online team gets starved anyway, and you've engineered the worst version of both strategies."
+        }
+      ]
+    },
+    {
+      "scenario": "2007: your 'Total Access' program (swap online rentals for free in-store exchanges) is actually working. You're eating Netflix's growth alive for the first time ever. Problem — it's bleeding cash and Wall Street is big mad about the margins.",
+      "year": 2007,
+      "realValuationB": 1.2,
+      "choices": [
+        {
+          "text": "Send it. Full marketing budget into Total Access",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.8,
+          "reveal": "ALTERNATE TIMELINE: Reed Hastings himself later called Total Access 'the single biggest threat' Netflix ever faced. Pressing here in 2007 could've ended the whole war on the spot."
+        },
+        {
+          "text": "Pull back, the shareholders want their bag now",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.45,
+          "reveal": "This is exactly what happened. You scaled back Total Access marketing in late 2007 to protect quarterly earnings, right as Netflix stock cratered 75%. It fully recovered within a year. You blinked at the worst possible second."
+        },
+        {
+          "text": "Spin Total Access off as its own little company",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.65,
+          "reveal": "ALTERNATE TIMELINE: The spinoff fragments your one real advantage, splits the customer base in half, and hands Netflix a weaker, more confused version of you to beat instead."
+        }
+      ]
+    },
+    {
+      "scenario": "2010: foot traffic is in freefall, debt's due, streaming already happened without you. Dish Network is circling like it's about to happen for real.",
+      "year": 2010,
+      "realValuationB": 0.3,
+      "choices": [
+        {
+          "text": "Full pivot to streaming before the cash hits zero",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 2.2,
+          "reveal": "ALTERNATE TIMELINE: A real streaming bet in 2010, backed by your brand and stores for a hybrid play, actually gives you a shot against a Netflix that hadn't locked the market up yet."
+        },
+        {
+          "text": "File Chapter 11 and pray somebody buys the scraps",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.02,
+          "reveal": "This is exactly what happened. Blockbuster filed for bankruptcy in September 2010. Dish Network bought what was left in 2011 for $320M — under 1% of your peak value. Absolutely cooked."
+        },
+        {
+          "text": "Sell the DVDs, go full landlord mode with the real estate",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.35,
+          "reveal": "ALTERNATE TIMELINE: Congrats, you're now a mid-tier commercial landlord with a shrinking lease book and no actual company. Technically alive longer. Nobody's proud of you though."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$240B", "line": "You out-executed history itself. Villain episode: WON. No notes."},
+      {"minWorked": 2, "valuation": "$8B", "line": "Limping but alive. Dish still buys you, just later and for more. Mid."},
+      {"minWorked": 0, "valuation": "$0", "line": "Faithful to history down to the letter. That's exactly the problem. 💀"}
+    ],
+    "ctaTicker": "NFLX",
+    "ctaLine": "Netflix 400x'd off this exact fork. Today's agents just flagged a company sitting at a similar crossroads →"
+  }
+}

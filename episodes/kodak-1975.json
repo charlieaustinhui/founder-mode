@@ -1,0 +1,166 @@
+{
+  "id": "kodak-1975",
+  "mode": "villain",
+  "company": "Kodak",
+  "year": 1975,
+  "accent": "#fcb614",
+  "intro": "December 1975. You run Kodak. You own 90% of American film sales and 85% of cameras. A 24-year-old engineer named Steve Sasson just walked into your office holding a toaster-sized prototype that takes pictures with no film at all.",
+  "realOutcome": {
+    "valuation": "$0 — Chapter 11, January 2012",
+    "summary": "Kodak invented the digital camera, patented much of digital photography, and still went bankrupt fighting the future it built. Every decision below is real."
+  },
+  "identity": { "historic": "the Kodak board", "foil": "Steve Sasson" },
+  "startValuationB": 10,
+  "finalRealValuationB": 0,
+  "decisions": [
+    {
+      "scenario": "Sasson demos the filmless camera. It's ugly, slow, and 0.01 megapixels — and it makes your entire film business optional. He asks for funding to develop it.",
+      "year": 1975,
+      "realValuationB": 10,
+      "choices": [
+        {
+          "text": "Fund a skunkworks. Cannibalize yourself before someone else does.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: Kodak owns digital photography a decade before anyone else takes it seriously. The company that killed film is the company that sold it."
+        },
+        {
+          "text": "Patent it, shelve it. 'That's cute — don't tell anyone.'",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "This is what happened — Sasson later said management's response was literally 'that's cute, but don't tell anyone about it.' Kodak patented the tech and buried the product for fear of hurting film."
+        },
+        {
+          "text": "Sell the patent. Filmless cameras aren't our business.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You just handed a rival the sword. At least in the real timeline the patents earned Kodak billions in licensing before the end — this way you don't even get that."
+        }
+      ]
+    },
+    {
+      "scenario": "1981. Sony announces the Mavica, a filmless electronic camera. Your own internal study concludes digital will replace film — but estimates you have about ten years before it's a real threat.",
+      "year": 1981,
+      "realValuationB": 12,
+      "choices": [
+        {
+          "text": "Use the decade: shift R&D hard into digital now.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: Ten years of head start with your patents and your budget means Kodak, not Sony or Canon, defines the digital camera. The report was right — you just actually used it."
+        },
+        {
+          "text": "File the report. Ten years is forever. Film is the cash cow.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "This is what happened. The 1981 study accurately predicted the transition, and Kodak used its decade of warning to sell more film. The report aged perfectly; the strategy did not."
+        },
+        {
+          "text": "Acquire Sony's camera division to control the threat.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: Sony laughs you out of Tokyo, keeps the Mavica, and now knows exactly how scared you are. You can't buy every company that will eventually make a camera phone."
+        }
+      ]
+    },
+    {
+      "scenario": "1994. You quietly built the Apple QuickTake — one of the first consumer digital cameras — but Apple's logo is on it, not yours. Your engineers ask why Kodak is ghostwriting the future for someone else's brand.",
+      "year": 1994,
+      "realValuationB": 15,
+      "choices": [
+        {
+          "text": "Launch a flagship Kodak digital camera line under our own name.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: The brand that means 'photography' to every American family now means digital photography too. The transition happens under your logo instead of over your body."
+        },
+        {
+          "text": "Keep white-labeling. Their brand takes the cannibalization risk.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "This is what happened — Kodak built the QuickTake and let Apple wear it. You proved digital cameras were consumer-ready and gave the proof away."
+        },
+        {
+          "text": "Kill the partnership. Stop feeding the digital market entirely.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: Canon, Nikon, and Sony don't need your help. The market arrives on schedule — you've just removed yourself from the room where it happens."
+        }
+      ]
+    },
+    {
+      "scenario": "1996. Kodak is worth $31B, its all-time peak. Your answer to digital is the Advantix APS system — a $500M bet on a camera that shoots digital previews but still makes customers buy and develop film.",
+      "year": 1996,
+      "realValuationB": 31,
+      "choices": [
+        {
+          "text": "Scrap Advantix. Put the $500M into pure digital.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: At peak valuation with $500M to spend, you finally pick a side — the winning one. The war chest exists; this time it buys the future instead of defending the past."
+        },
+        {
+          "text": "Ship Advantix. Digital preview, film purchase. Best of both.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "This is what happened. Kodak spent $500M on a product whose core feature was making you still buy film. It flopped instantly — the 'best of both worlds' was the worst of one."
+        },
+        {
+          "text": "Use the peak: acquire an internet photo-sharing startup.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: You buy the company that becomes the place photos live online. (In reality Kodak did buy Ofoto — in 2001, late, and used it to sell prints.) Doing it at the peak, for the right reason, changes the story."
+        }
+      ]
+    },
+    {
+      "scenario": "2003. Film sales are finally collapsing. You have one pivot left in the tank. The board is split between printers ('people will always print photos'), a patent-licensing war chest, and a real consumer-digital push.",
+      "year": 2003,
+      "realValuationB": 8,
+      "choices": [
+        {
+          "text": "Go all-in on consumer digital cameras and online sharing.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: EasyShare cameras actually briefly led U.S. digital sales — in this timeline you back that win instead of milking it for printer ink. When phones eat cameras, you're the photo platform, not the casket."
+        },
+        {
+          "text": "Pivot to printers and ink. People will always print photos.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.4,
+          "reveal": "This is what happened. Kodak bet the endgame on inkjet printers just as the world stopped printing photos. Chapter 11 came in January 2012; the patents were sold off for parts."
+        },
+        {
+          "text": "Become a patent troll. Sue everyone using our IP.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: The lawsuits fund a slower funeral. Kodak actually did win over $3B in licensing — litigation is a painkiller, not a cure."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$150B", "line": "You invented the future and actually shipped it. Villain episode: WON."},
+      {"minWorked": 2, "valuation": "$12B", "line": "A smaller, humbler Kodak survives selling sensors and printing. Fuji did it — you half did."},
+      {"minWorked": 0, "valuation": "$0", "line": "You invented the digital camera and died fighting it. Faithful to history. 💀"}
+    ],
+    "ctaTicker": "SONY",
+    "ctaLine": "Sony took the market Kodak invented. Today's agents flagged an incumbent shelving its own disruption →"
+  }
+}
