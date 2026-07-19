@@ -1,0 +1,166 @@
+{
+  "id": "netflix-2011-brainrot",
+  "mode": "legend",
+  "company": "Netflix",
+  "year": 2011,
+  "accent": "#e50914",
+  "intro": "July 2011. You're Reed Hastings. Netflix is worth $16B and you just finished Blockbuster (RIP bozo). Now you want to split DVDs from streaming — and you're about to set 800,000 subscribers on fire to do it. This is going to be a season.",
+  "realOutcome": {
+    "valuation": "~$400B today",
+    "summary": "Netflix's 2011 was a masterclass in being strategically right and tactically down bad — then recovering anyway. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Reed Hastings", "foil": "Wall Street" },
+  "startValuationB": 16,
+  "finalRealValuationB": 25,
+  "decisions": [
+    {
+      "scenario": "DVD-plus-streaming is $9.99. Streaming is obviously the future but DVDs still print money. You want to unbundle — meaning anyone keeping both pays $15.98. That's a 60% price hike overnight.",
+      "year": 2011,
+      "realValuationB": 16,
+      "choices": [
+        {
+          "text": "Unbundle and raise. Rip the band-aid clean off.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 0.7,
+          "reveal": "Hastings did it — lost 800,000 subscribers in ONE quarter while the stock fell $300 to $65. But splitting streaming's economics from DVDs funded the entire next decade. Right call, catastrophic year. It hurts before it pays."
+        },
+        {
+          "text": "Keep the bundle. Never anger the customers.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: Peace in 2011, and streaming stays handcuffed to a dying DVD business's cost structure. You postponed the surgery until the patient got weaker. Coward tax."
+        },
+        {
+          "text": "Grandfather old users, hike only the new ones",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: Two customer classes, one support nightmare, revenue math frozen for three years. Kindness as strategy is still just indecision with better PR."
+        }
+      ]
+    },
+    {
+      "scenario": "September 2011. Subscribers are FURIOUS about the hike. Your response plan: apologize... and then announce the DVD side is becoming a whole separate site called 'Qwikster.' Separate queue. Separate billing. Yes, really.",
+      "year": 2011,
+      "realValuationB": 9,
+      "choices": [
+        {
+          "text": "Launch Qwikster. Full send.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.55,
+          "reveal": "Hastings announced it in a rambling apology video. Customers who survived the price hike now got two websites and two bills. The @Qwikster Twitter handle already belonged to a guy posting memes. Business schools teach this as a horror story."
+        },
+        {
+          "text": "Just apologize. Do NOT announce anything new today.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: An apology that doesn't introduce a second problem. Revolutionary. The bleeding slows months earlier and 'Qwikster' never enters the curriculum."
+        },
+        {
+          "text": "Double down publicly: 'the price is the price'",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: Defiance reads as contempt while your stock is down 60%. You can be strategically correct and still get ratio'd into the ground."
+        }
+      ]
+    },
+    {
+      "scenario": "Three weeks later. Qwikster is a national joke, the stock is down 75% from July, and your own execs are telling you to your face that it's a mistake. Reversing means the CEO publicly admitting he was wrong, mid-crisis.",
+      "year": 2011,
+      "realValuationB": 4,
+      "choices": [
+        {
+          "text": "Kill Qwikster. One sentence. 'We were wrong.'",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "Hastings reversed in three weeks FLAT — 'two websites would make things more difficult.' The speed of the reversal, not the original call, is what saved the company's credibility. Ego check: passed."
+        },
+        {
+          "text": "Ride it out. Reversing looks weak.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.5,
+          "reveal": "ALTERNATE TIMELINE: Qwikster limps on for 18 months, splitting engineering focus during the exact window Amazon and Hulu are loading up. Ego is expensive at scale."
+        },
+        {
+          "text": "Keep the split, just rebrand it. The name's the problem.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: 'DVD.com by Netflix' still has two logins and two bills. Nobody was mocking the name, chief. They were mocking the idea."
+        }
+      ]
+    },
+    {
+      "scenario": "2012. You're wounded — worth $5B, press writing obituaries. Meanwhile international expansion (Latin America, UK, Nordics) is burning hundreds of millions with zero profit in sight. The board wants to know if NOW is really the time.",
+      "year": 2012,
+      "realValuationB": 5,
+      "choices": [
+        {
+          "text": "Keep burning. Flag in every market before anyone else wakes up.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Netflix expanded straight through the crisis — international went from money pit to the MAJORITY of all subscribers. The land grab only worked because it happened while everyone else was hesitating."
+        },
+        {
+          "text": "Pause international. Fix home base first.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: Prudent, defensible, fatal. Amazon Prime Video launches into every market you postponed, and 'the Netflix of Europe' gets built by literally anyone else."
+        },
+        {
+          "text": "License the platform to foreign broadcasters for quick cash",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: Quick money, and you've personally trained a dozen national champions to run streaming services that will never need you again. Speedrunning irrelevance."
+        }
+      ]
+    },
+    {
+      "scenario": "Late 2012. A political drama called 'House of Cards' is on the table — but the deal needs $100M for TWO full seasons, sight unseen, no pilot. HBO said no to those terms. You'd be a DVD company outbidding Hollywood.",
+      "year": 2013,
+      "realValuationB": 10,
+      "choices": [
+        {
+          "text": "Send the $100M. Two seasons, no pilot, full creative freedom.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 2.0,
+          "reveal": "House of Cards dropped February 2013, all episodes at once — inventing binge culture and out-prestiging HBO in one move. The stock rose ~300% in 2013. Original content became the moat. Generational play."
+        },
+        {
+          "text": "Offer a normal pilot deal like everyone else",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: Fincher takes the two-season guarantee somewhere that offers it. The no-pilot commitment WAS the pitch — copying Hollywood's process gets you Hollywood's leftovers."
+        },
+        {
+          "text": "Skip originals, spend the $100M licensing proven hits",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You rent your whole catalog from studios that are all quietly building their own streamers. In five years they take the shows back and you're just a pipe. A very anxious pipe."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$25B", "line": "You survived your own worst year and bought the next decade. Legend episode: WON."},
+      {"minWorked": 2, "valuation": "$6B", "line": "Alive, but the moat never got dug. Amazon is VERY interested in acquiring you. Mid."},
+      {"minWorked": 0, "valuation": "$1B", "line": "Qwikster forever. Blockbuster's ghost is laughing at YOU now. 💀"}
+    ],
+    "ctaTicker": "NFLX",
+    "ctaLine": "Netflix 40x'd after this fork. Today's agents flagged a company mid-pivot at a similar crossroads →"
+  }
+}

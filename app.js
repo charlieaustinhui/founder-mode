@@ -1,9 +1,9 @@
 // One entry per day, rotating. `brainrot` is optional per episode.
 const EPISODE_SCHEDULE = [
   { classic: "blockbuster-2000", brainrot: "blockbuster-2000-brainrot" },
-  { classic: "apple-1997" },
-  { classic: "kodak-1975" },
-  { classic: "netflix-2011" },
+  { classic: "apple-1997", brainrot: "apple-1997-brainrot" },
+  { classic: "kodak-1975", brainrot: "kodak-1975-brainrot" },
+  { classic: "netflix-2011", brainrot: "netflix-2011-brainrot" },
 ];
 const LAUNCH_DATE = "2026-07-18"; // day 1
 const STORAGE_KEY = "founderMode";
@@ -59,6 +59,7 @@ const state = {
 };
 
 function formatValuationB(billions) {
+  if (billions >= 1000) return `$${(billions / 1000).toFixed(1)}T`;
   if (billions >= 1) return `$${billions.toFixed(1)}B`;
   if (billions >= 0.01) return `$${Math.round(billions * 1000)}M`;
   return "$0";
@@ -355,7 +356,8 @@ function renderEnding() {
   const yourValuation = formatValuationB(state.valuationB);
 
   const decisions = state.episode.decisions;
-  const years = decisions.map((d) => d.year).concat(decisions[decisions.length - 1].year);
+  const endYear = decisions[decisions.length - 1].year;
+  const years = decisions.map((d) => d.year).concat(endYear);
   const realSeries = decisions.map((d) => d.realValuationB).concat(state.episode.finalRealValuationB);
   const yourSeries = state.valuationHistory;
 
@@ -374,13 +376,14 @@ function renderEnding() {
       <div class="valuation-row">
         <div class="valuation-col">
           <div class="valuation-num" id="your-val">$0</div>
-          <div class="valuation-caption">Under you</div>
+          <div class="valuation-caption">Your ${state.episode.company}, ${endYear}</div>
         </div>
         <div class="valuation-col">
-          <div class="valuation-num real">${state.episode.realOutcome.valuation}</div>
-          <div class="valuation-caption">Reality</div>
+          <div class="valuation-num real">${formatValuationB(state.episode.finalRealValuationB)}</div>
+          <div class="valuation-caption">Real ${state.episode.company}, ${endYear}</div>
         </div>
       </div>
+      <div class="epilogue-line">Real-world epilogue: ${state.episode.realOutcome.valuation}</div>
       <div class="ending-line">${band.line}</div>
       <div class="identity-line">${identityLine}</div>
       <div class="percentile-line">Better than ${percentile}% of players today</div>
@@ -473,7 +476,10 @@ function countUp(node, targetStr) {
 
 function shareResult(yourValuation) {
   const grid = emojiGrid();
-  const text = `FOUNDER MODE #${episodeNumber()} — my ${state.episode.company}: ${yourValuation} / real: ${state.episode.realOutcome.valuation} 💀\n${grid}`;
+  const decisions = state.episode.decisions;
+  const endYear = decisions[decisions.length - 1].year;
+  const realThen = formatValuationB(state.episode.finalRealValuationB);
+  const text = `FOUNDER MODE #${episodeNumber()} — my ${state.episode.company}: ${yourValuation} / real ${state.episode.company} in ${endYear}: ${realThen} 💀\n${grid}`;
   if (navigator.share) {
     navigator.share({ text }).catch(() => {});
   } else {
