@@ -1,0 +1,166 @@
+{
+  "id": "xerox-1979-brainrot",
+  "mode": "villain",
+  "company": "Xerox",
+  "year": 1979,
+  "accent": "#da291c",
+  "intro": "1979. Your research lab, Xerox PARC, quietly invented the entire future: the graphical interface, the mouse, Ethernet, the laser printer, the personal computer. You run Xerox — a COPIER company — and HQ three thousand miles away has genuinely no clue what it's sitting on. Foreshadowing so heavy it hurts.",
+  "realOutcome": {
+    "valuation": "invented the PC and captured almost none of it",
+    "summary": "Xerox invented modern computing at PARC and handed the trillion-dollar industry to everyone else. Every 'what actually happened' below is real. It hurts to read."
+  },
+  "identity": { "historic": "Xerox management", "foil": "the engineers at PARC" },
+  "startValuationB": 8,
+  "finalRealValuationB": 10,
+  "decisions": [
+    {
+      "scenario": "A young Steve Jobs wants to tour PARC and see your graphical interface. Your investment arm can grab pre-IPO Apple shares in exchange for the tour. Your engineers are screaming internally about what you're about to give away.",
+      "year": 1979,
+      "realValuationB": 8,
+      "choices": [
+        {
+          "text": "Trade the demo for a $1M stake in Apple",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "Xerox let Jobs tour PARC in exchange for the right to invest in Apple. He strolled out with the ideas that became the Macintosh. Xerox traded the entire future of computing for a modest stock stake. Worst trade ever recorded."
+        },
+        {
+          "text": "Keep the interface secret and build it yourself",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You guard the crown jewels and ship the graphical PC first. Xerox — not Apple, not Microsoft — defines how the entire planet uses computers. Undefeated."
+        },
+        {
+          "text": "License the interface to everyone for royalties",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: If you're gonna share it, at least own the standard. Every GUI computer sold pays Xerox a toll and you profit off an industry you seeded. Landlord arc."
+        }
+      ]
+    },
+    {
+      "scenario": "PARC built the Alto — a real personal computer with a mouse and windows, a DECADE ahead of everyone. You can bring a version to market, but pricing it for real humans is a fistfight with your copier-brained company.",
+      "year": 1981,
+      "realValuationB": 8,
+      "choices": [
+        {
+          "text": "Ship the Xerox Star at $16,000+ for offices",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "Xerox shipped the Star in 1981 — genius, and priced at over $16,000 a workstation. It flopped while cheaper PCs from Apple and IBM ate the market it invented. Priced the future out of existence."
+        },
+        {
+          "text": "Ship an affordable personal computer for everyone",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "ALTERNATE TIMELINE: You price the PC for real people instead of only megacorps. Xerox owns the personal computer the way it owned the copier. Total domination."
+        },
+        {
+          "text": "Partner with a PC maker to mass-produce it",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: You bring in a partner who actually knows high-volume consumer manufacturing. PARC's genius meets someone who can build and sell it at scale. Match made in heaven."
+        }
+      ]
+    },
+    {
+      "scenario": "The mouse and graphical interface could go mass market as cheap add-ons for ANY computer. Or keep them locked inside your expensive high-end office gear.",
+      "year": 1981,
+      "realValuationB": 9,
+      "choices": [
+        {
+          "text": "Keep the mouse and GUI in high-end office gear",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "Xerox treated its breakthroughs as premium office features instead of mass products. The mouse and GUI conquered the world — on everybody else's machines. Fumbled it into everyone's hands but their own."
+        },
+        {
+          "text": "Sell a cheap mouse + GUI for every computer",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You put Xerox's interface on every desk on Earth for a few bucks each. Ubiquity + small margin absolutely dumpsters exclusivity on a product nobody can afford."
+        },
+        {
+          "text": "Spin PARC out as its own computer company",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: Freed from copier-brain, a standalone PARC moves at Silicon Valley speed and actually commercializes what it invented. Let the geniuses cook."
+        }
+      ]
+    },
+    {
+      "scenario": "The copier execs at HQ call the computing researchers 'toner heads' and treat PARC as an expensive hobby. Keep the company's center of gravity in copiers, or move it toward the future PARC is literally building?",
+      "year": 1983,
+      "realValuationB": 9,
+      "choices": [
+        {
+          "text": "Let HQ stay focused on copiers",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "Xerox's leadership stayed a copier company at heart and treated PARC's work as a distraction. The distance — cultural AND literal — between Stamford and Palo Alto let the future walk right out the door."
+        },
+        {
+          "text": "Move the company's center of gravity to PARC",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You reorient Xerox around computing and back the people inventing it. Copier profits FUND the transition instead of smothering it. Vision unlocked."
+        },
+        {
+          "text": "Fund a dedicated West Coast computing division",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: You give computing its own budget, leaders, and mandate, safe from copier politics. PARC's inventions finally get a company that actually wants them."
+        }
+      ]
+    },
+    {
+      "scenario": "PARC also invented Ethernet — how computers talk to each other. Sit on it and keep milking copiers, or build the networked-office business the entire industry is about to desperately need?",
+      "year": 1985,
+      "realValuationB": 8,
+      "choices": [
+        {
+          "text": "Sit on Ethernet, keep milking copiers",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "Xerox let Ethernet and its networking lead leak to others while defending its copier cash cow. It invented how offices would connect and captured almost none of it. Serial fumbler behavior."
+        },
+        {
+          "text": "Build the networked-office business you invented",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You commercialize Ethernet and own the plumbing of every connected office. The networking industry grows up INSIDE Xerox instead of around it."
+        },
+        {
+          "text": "License Ethernet broadly to set the standard",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: You make Ethernet the universal standard and collect on it everywhere. Xerox becomes synonymous with connectivity, not just copies. Standard-setter energy."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$250B", "line": "You invented the future and actually KEPT it. Villain episode: WON. No notes."},
+      {"minWorked": 2, "valuation": "$40B", "line": "A real computing player next to the copier biz — not a cautionary tale. Mid."},
+      {"minWorked": 0, "valuation": "$8B", "line": "You invented the personal computer and stayed a copier company. Faithful to history. 💀"}
+    ],
+    "ctaTicker": "AAPL",
+    "ctaLine": "Xerox invented what Apple monetized. Today's agents flagged a company sitting on a breakthrough it refuses to ship →"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "tesla-2008",
+  "mode": "legend",
+  "company": "Tesla",
+  "year": 2008,
+  "accent": "#cc0000",
+  "intro": "October 2008. The global financial system is melting down. Tesla has one product — a Roadster that's massively over budget — and roughly weeks of cash left. You just took over as CEO. Every automaker in America is begging Washington for a bailout.",
+  "realOutcome": {
+    "valuation": "over $1T at its 2021 peak",
+    "summary": "Tesla went from near-bankruptcy to the most valuable automaker in the world. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Elon Musk", "foil": "a bankruptcy trustee" },
+  "startValuationB": 0.5,
+  "finalRealValuationB": 30,
+  "decisions": [
+    {
+      "scenario": "The Roadster is bleeding money, the credit markets are frozen, and payroll is close. Outside money is nearly impossible to raise. You do, however, still have your own fortune.",
+      "year": 2008,
+      "realValuationB": 0.5,
+      "choices": [
+        {
+          "text": "Put in your own last dollars to keep it alive.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Musk poured nearly his entire remaining fortune into Tesla in 2008, reportedly borrowing money for rent. It kept the company breathing until outside capital could close."
+        },
+        {
+          "text": "Give up and sell the husk to a big automaker.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.4,
+          "reveal": "ALTERNATE TIMELINE: A Detroit giant buys the technology, shelves the EV program to protect its gas engines, and the electric car stays a rich hobbyist's toy for another decade."
+        },
+        {
+          "text": "Lay off the engineers and slow the Roadster down.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You conserve cash by gutting the only team that can finish the car. A slower Roadster misses its window and the death spiral just takes longer."
+        }
+      ]
+    },
+    {
+      "scenario": "There's a financing round on the table, but the terms are ugly and the clock is running out before the holidays. Investors know exactly how desperate you are.",
+      "year": 2008,
+      "realValuationB": 1,
+      "choices": [
+        {
+          "text": "Close the round on Christmas Eve, whatever the terms.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "Tesla closed a critical funding round on December 24, 2008 — hours from insolvency. Survival first; you can fix the cap table once you're alive."
+        },
+        {
+          "text": "Hold out for a cleaner deal at a better valuation.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.5,
+          "reveal": "ALTERNATE TIMELINE: There is no better deal in December 2008. You run out of cash over the holidays and the company is liquidated in January."
+        },
+        {
+          "text": "Take a lowball buyout offer to end the stress.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: You sell for a fraction of the eventual value to escape the fear. The acquirer never ships the Model S."
+        }
+      ]
+    },
+    {
+      "scenario": "Two lifelines appear: a $465M low-interest loan from the Department of Energy, and the option to take Tesla public — the first American car company IPO since Ford in 1956.",
+      "year": 2010,
+      "realValuationB": 2,
+      "choices": [
+        {
+          "text": "Take the DOE loan and IPO the company.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Tesla took the $465M DOE loan and went public in June 2010. It later repaid the loan nine years early — the public markets and cheap capital funded the Model S."
+        },
+        {
+          "text": "Stay private and grow slowly on revenue.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: Without the capital injection you can't tool a real factory. Tesla stays a boutique sports-car shop and never reaches the mass market."
+        },
+        {
+          "text": "Sell a big equity stake to an oil major.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: Your new owner has every incentive to slow-walk the electric transition. The mission dies inside a board room."
+        }
+      ]
+    },
+    {
+      "scenario": "For your next car you can build a clean-sheet luxury sedan — the Model S — or play it safe with a cheap, high-volume econobox. The sedan could bankrupt you; it could also prove electric cars can be desirable.",
+      "year": 2012,
+      "realValuationB": 3,
+      "choices": [
+        {
+          "text": "Bet the company on the from-scratch Model S.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.8,
+          "reveal": "The Model S shipped in 2012 and won Motor Trend Car of the Year. It proved an EV could out-drive and out-desire gas luxury cars, and it made Tesla credible."
+        },
+        {
+          "text": "Build a cheap econobox to move volume first.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: A forgettable cheap EV competes on price with everyone and desire with no one. Tesla never earns the premium brand that funds everything later."
+        },
+        {
+          "text": "License your powertrains and stop making cars.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You become a quiet parts supplier to automakers who bury your tech in cars they'd rather not sell. The brand never exists."
+        }
+      ]
+    },
+    {
+      "scenario": "You have a technology lead but a charging problem: no one buys an electric car they can't road-trip. You can build a proprietary charging network, and you're even considering giving your patents away.",
+      "year": 2014,
+      "realValuationB": 30,
+      "choices": [
+        {
+          "text": "Open the patents, build Superchargers and a Gigafactory.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "Tesla open-sourced its patents in 2014 and built out Superchargers and the Gigafactory. Growing the whole EV market — and owning its charging and battery supply — was worth more than hoarding IP."
+        },
+        {
+          "text": "Hoard the patents and sue anyone who copies you.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You defend a small EV market instead of expanding a huge one. Legal fees rise, the category stays niche, and your cars have nowhere to charge."
+        },
+        {
+          "text": "Stay a niche luxury brand and skip the buildout.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: Without charging infrastructure and battery scale, Tesla is a cool toy for a few thousand rich early adopters. The mass market never arrives."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$40B", "line": "You went from weeks-from-dead to defining an industry. Legend episode: WON."},
+      {"minWorked": 2, "valuation": "$10B", "line": "Survived, but as a boutique. The mass-market revolution happened to someone else."},
+      {"minWorked": 0, "valuation": "$1B", "line": "Liquidated in the crash. The EV era waits another decade. 💀"}
+    ],
+    "ctaTicker": "TSLA",
+    "ctaLine": "Tesla 100x'd after this fork. Today's agents flagged a company everyone left for dead →"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "nokia-2007",
+  "mode": "villain",
+  "company": "Nokia",
+  "year": 2007,
+  "accent": "#124191",
+  "intro": "June 2007. You run Nokia. You sell more than 400 million phones a year and own roughly half the smartphone market. A computer company from California just unveiled a glass slab with no keyboard called the iPhone. Your engineers are laughing.",
+  "realOutcome": {
+    "valuation": "handset unit sold to Microsoft for $7.2B (2014), then written off",
+    "summary": "Nokia went from owning the phone to selling its phone business for scrap. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Nokia's leadership", "foil": "Steve Jobs" },
+  "startValuationB": 100,
+  "finalRealValuationB": 7,
+  "decisions": [
+    {
+      "scenario": "The iPhone launches. It has a poor battery, no physical keyboard, and can't handle a drop test. Your team's internal report concludes it's no threat to a real phone company.",
+      "year": 2007,
+      "realValuationB": 100,
+      "choices": [
+        {
+          "text": "Dismiss it. Serious phones have keyboards.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "Nokia genuinely dismissed the iPhone as a fragile toy for years. The 'it has no keyboard' report aged into one of the most expensive misreads in business history."
+        },
+        {
+          "text": "Crash-build a true touchscreen OS immediately.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You take the threat seriously in 2007 and ship a real finger-first OS while you still own the channel. Nokia stays the default phone into the smartphone era."
+        },
+        {
+          "text": "Buy a nimble touch-UI startup to leap ahead.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: You import world-class touch software instead of forcing it out of Symbian. Nokia's hardware plus a modern OS is a genuine iPhone rival."
+        }
+      ]
+    },
+    {
+      "scenario": "Symbian, the OS behind your smartphones, is aging badly — clunky to develop for and painful to use with a finger. You can keep patching it or rebuild your software foundation.",
+      "year": 2008,
+      "realValuationB": 60,
+      "choices": [
+        {
+          "text": "Keep patching Symbian. It still ships in volume.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "Nokia kept bolting touch features onto Symbian for years. Developers fled to iOS and Android, and every patch made the underlying rot more obvious."
+        },
+        {
+          "text": "Rebuild the OS from scratch and ship it fast.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: A clean modern OS (the MeeGo idea, executed on time) gives developers a reason to stay. Nokia's scale plus good software is unbeatable in 2008."
+        },
+        {
+          "text": "Adopt Android early as your smartphone OS.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "ALTERNATE TIMELINE: You inherit the entire Android app ecosystem and pair it with the best hardware and distribution on Earth. Samsung's future becomes yours instead."
+        }
+      ]
+    },
+    {
+      "scenario": "Android is now real and open. Handset makers everywhere are adopting it for free. You can jump on it — or protect Symbian and the software independence you've always guarded.",
+      "year": 2010,
+      "realValuationB": 40,
+      "choices": [
+        {
+          "text": "Refuse Android. Protect Symbian and independence.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "Nokia refused to build on Android to avoid becoming 'just another Android maker.' It instead became a maker of an OS no one wanted to develop for."
+        },
+        {
+          "text": "Make Android your primary smartphone platform.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.7,
+          "reveal": "ALTERNATE TIMELINE: With your brand and distribution, you'd have been the number-one Android phone in the world. (When Nokia finally shipped Android phones in 2017, they sold — years too late.)"
+        },
+        {
+          "text": "Run Android and Symbian side by side.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.1,
+          "reveal": "ALTERNATE TIMELINE: Messy, but Android gives you a modern flagship while Symbian milks the low end. At least you're in the race that actually matters."
+        }
+      ]
+    },
+    {
+      "scenario": "Your new CEO writes a memo calling Nokia a 'burning platform.' The choice for your future OS comes down to Google's Android or Microsoft's brand-new, app-poor Windows Phone.",
+      "year": 2011,
+      "realValuationB": 20,
+      "choices": [
+        {
+          "text": "Go all-in on Windows Phone with Microsoft.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.55,
+          "reveal": "Nokia bet the company on Windows Phone in 2011. The app ecosystem never came, sales collapsed, and the 'burning platform' memo itself scared buyers away from Symbian before the replacement was ready."
+        },
+        {
+          "text": "Choose Android instead.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "ALTERNATE TIMELINE: You pick the ecosystem customers and developers actually use. Nokia hardware on Android is the phone Samsung wishes it built."
+        },
+        {
+          "text": "Keep MeeGo — the N9 was critically loved.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: The MeeGo-powered N9 got rave reviews right before it was killed. Backing it instead of abandoning it gives Nokia a real third ecosystem."
+        }
+      ]
+    },
+    {
+      "scenario": "It's over as a standalone. Microsoft offers $7.2B for your handset business — the business that once defined the entire industry.",
+      "year": 2013,
+      "realValuationB": 7,
+      "choices": [
+        {
+          "text": "Sell the phone business to Microsoft for $7.2B.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.5,
+          "reveal": "Nokia sold to Microsoft in 2013-2014. Microsoft wrote off $7.6B — more than it paid — and shut the phone business down within two years. The brand that owned mobile was gone."
+        },
+        {
+          "text": "Stay independent and fight on with Android.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: A painful few years, but on the right OS your brand recovers. Nokia stays a top-five phone maker instead of a licensing footnote."
+        },
+        {
+          "text": "License the Nokia brand to an Android maker.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: You let a focused partner build Nokia Android phones. (This is essentially what happened in 2016 via HMD — and those phones sold. Doing it years earlier saves the empire.)"
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$180B", "line": "You saw the slab coming and moved first. Villain episode: WON."},
+      {"minWorked": 2, "valuation": "$40B", "line": "Smaller but alive — a real smartphone player instead of a memory."},
+      {"minWorked": 0, "valuation": "$7B", "line": "Sold for parts. Faithful to history. 💀"}
+    ],
+    "ctaTicker": "AAPL",
+    "ctaLine": "Apple took the market Nokia owned. Today's agents flagged an incumbent laughing at its disruptor →"
+  }
+}

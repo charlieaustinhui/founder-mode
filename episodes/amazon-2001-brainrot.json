@@ -1,0 +1,166 @@
+{
+  "id": "amazon-2001-brainrot",
+  "mode": "legend",
+  "company": "Amazon",
+  "year": 2001,
+  "accent": "#ff9900",
+  "intro": "March 2001. The dot-com bubble just went boom. Amazon's stock speedran from $100+ to single digits, Barron's put 'Amazon.bomb' on the cover (savage), and analysts are drawing up your bankruptcy for fun. You've never made a dollar of profit. You run this thing.",
+  "realOutcome": {
+    "valuation": "~$2T today",
+    "summary": "Amazon tanked and then became one of the most valuable companies alive. Every 'what actually happened' below is real, no cap."
+  },
+  "identity": { "historic": "Jeff Bezos", "foil": "a panicking board" },
+  "startValuationB": 6,
+  "finalRealValuationB": 18,
+  "decisions": [
+    {
+      "scenario": "February 2000. The market is euphoric but your spidey-sense says top. You can raise $672M in convertible bonds RIGHT NOW — pricey, dilutive, and it looks paranoid while everyone's still popping bottles.",
+      "year": 2000,
+      "realValuationB": 6,
+      "choices": [
+        {
+          "text": "Grab the $672M before the door slams. Secure the bag.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Bezos raised $672M in convertible notes WEEKS before the bubble popped. That war chest is the entire reason Amazon didn't die in 2001 when funding froze into a brick. Cracked timing."
+        },
+        {
+          "text": "Stay lean, raising cash looks weak",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: The funding window shuts in months and never reopens for unprofitable dot-coms. You run dry in 2001 next to Pets.com and Webvan in the group chat of the damned."
+        },
+        {
+          "text": "Sell the whole company while the stock's still cooking",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.5,
+          "reveal": "ALTERNATE TIMELINE: You cash out at the top and Amazon gets absorbed into some retailer that never builds AWS or Prime. W trade, historic L for humanity."
+        }
+      ]
+    },
+    {
+      "scenario": "Your own retail buyers are BEGGING you not to, but you could open your product pages to third-party sellers — including rivals — letting them post up right next to your own stuff.",
+      "year": 2001,
+      "realValuationB": 4,
+      "choices": [
+        {
+          "text": "Open Marketplace. Let the competition sell on your turf.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "Amazon opened Marketplace to third parties in 2000-2001. Felt like self-sabotage; became half of all units sold and a fat high-margin machine. Big brain."
+        },
+        {
+          "text": "First-party only, control the whole vibe",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You stay a pure retailer eating every gram of inventory risk. eBay runs third-party commerce and Amazon grows at a fraction of the speed. Mid."
+        },
+        {
+          "text": "Franchise the Amazon brand out to other stores",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You license your name and fumble the customer experience that was your ONLY moat. The brand dilutes into background noise."
+        }
+      ]
+    },
+    {
+      "scenario": "Wall Street wants receipts that you can EVER make money. You can grind toward your first-ever profit and get obsessed with free cash flow — or keep dumping everything into growth and dare them to doubt you.",
+      "year": 2001,
+      "realValuationB": 4,
+      "choices": [
+        {
+          "text": "Grind to first profit and make free cash flow your religion.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Amazon posted its first-ever profit in Q4 2001 — a skinny $5M — and Bezos rebuilt the whole company around free cash flow per share. Bought years of 'trust me bro' credibility."
+        },
+        {
+          "text": "Profit is for losers, spend for pure growth",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: Market's in ashes, no profit in sight, and lenders ghost you. Growth you can't finance is just a bankruptcy with extra steps."
+        },
+        {
+          "text": "Force profit overnight with brutal layoffs",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: You hit a number by gutting the company, then can't fund the infrastructure that becomes Prime and AWS. You optimized the wrong decade, king."
+        }
+      ]
+    },
+    {
+      "scenario": "Your engineering org is spaghetti. You could mandate that every single team expose its work as a service through APIs — a huge painful re-architecture with no obvious payoff — or just let the machine keep running.",
+      "year": 2002,
+      "realValuationB": 6,
+      "choices": [
+        {
+          "text": "Mandate everything as APIs. Services or you're fired.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "Bezos' legendary ~2002 'API mandate' forced every team to build service interfaces (rumored ending: 'anyone who doesn't will be fired'). That's the seed that made AWS exist. Absolute foresight."
+        },
+        {
+          "text": "Keep the monolith, put every dev on retail",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: Retail ships a little faster this quarter, but the AWS plumbing never gets laid. You fumble the highest-margin business you'd ever build."
+        },
+        {
+          "text": "Infrastructure is a cost center, minimize it",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You starve the systems that could've been a cloud empire. Somebody else invents the cloud and rents it right back to you. Painful."
+        }
+      ]
+    },
+    {
+      "scenario": "You want to offer unlimited two-day shipping for a flat $79/year. Finance is FREAKING OUT — the math looks like arson, and the heavy shippers will farm it.",
+      "year": 2005,
+      "realValuationB": 18,
+      "choices": [
+        {
+          "text": "Launch Prime at $79. Finance can cope.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.8,
+          "reveal": "Amazon launched Prime in February 2005 while the finance team was internally screaming. It became the most effective loyalty program in retail history — the reason you now buy literally everything from them."
+        },
+        {
+          "text": "Keep per-order shipping fees, that's real margin",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You protect shipping revenue and never build the habit loop that makes Amazon the default. Customers keep comparison-shopping the whole web. Fumbled the addiction."
+        },
+        {
+          "text": "Just raise the free-shipping order threshold",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: A safe little tweak that changes nothing structural. The membership flywheel that rewired human shopping behavior never spins up."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$50B", "line": "You turned the crash into a launchpad. Legend episode: WON. No notes."},
+      {"minWorked": 2, "valuation": "$12B", "line": "Alive and profitable, but no cloud, no Prime flywheel. A solid store, not an empire. Mid."},
+      {"minWorked": 0, "valuation": "$3B", "line": "Amazon.bomb. The obituary writes itself. 💀"}
+    ],
+    "ctaTicker": "AMZN",
+    "ctaLine": "Amazon 300x'd after this fork. Today's agents flagged a company written off at a similar low →"
+  }
+}

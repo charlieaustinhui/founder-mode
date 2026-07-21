@@ -1,0 +1,166 @@
+{
+  "id": "nintendo-2003-brainrot",
+  "mode": "legend",
+  "company": "Nintendo",
+  "year": 2003,
+  "accent": "#e60012",
+  "intro": "2003. The GameCube is a hard third behind Sony's PS2 and Microsoft's Xbox. Everyone KNOWS the rule: win by having the strongest console. You run Nintendo. You're about to look at that rule and say 'nah.'",
+  "realOutcome": {
+    "valuation": "over $80B at its peak",
+    "summary": "Nintendo stopped fighting on horsepower and turned gaming into a thing everyone does. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Satoru Iwata", "foil": "the spec-sheet arms race" },
+  "startValuationB": 15,
+  "finalRealValuationB": 70,
+  "decisions": [
+    {
+      "scenario": "You're losing the console war on raw power. Pour everything into out-speccing Sony next gen — or stop fighting for the same sweaty hardcore gamers and grow WHO plays games entirely.",
+      "year": 2003,
+      "realValuationB": 15,
+      "choices": [
+        {
+          "text": "Expand the audience. Stop fighting on horsepower.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "Iwata went 'blue ocean': instead of chasing Sony's hardcore crowd, grow the market to people who never touched a controller. Rewrote the entire competition. Galaxy-brain move."
+        },
+        {
+          "text": "Out-spec Sony with a raw power console",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You brawl over teraflops and lose on price, dev support, and exclusives. Third place in a war you chose to fight on the enemy's home turf. Ego death."
+        },
+        {
+          "text": "Quit hardware, just publish software",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You give up the platform control that lets Mario and Zelda sell consoles. Nintendo becomes just another studio living on other people's boxes. Sad."
+        }
+      ]
+    },
+    {
+      "scenario": "For your next handheld, Sony's bringing the PSP — sleek, powerful, media beast. You have a weird idea: two screens, one touch-controlled, marketed as a whole new 'third pillar.'",
+      "year": 2004,
+      "realValuationB": 18,
+      "choices": [
+        {
+          "text": "Ship the dual-screen, touchscreen DS",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "The DS, with its touchscreen and weird little games, became one of the best-selling systems ever — 150M+ units — and absolutely buried the 'more powerful' PSP. Weird wins."
+        },
+        {
+          "text": "Build a straightforward beefier Game Boy",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: A better Game Boy fights the PSP on the PSP's terms — specs and media. You gain ground but never crack open a brand-new audience. Meh."
+        },
+        {
+          "text": "Cede handhelds to Sony, focus on consoles",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You abandon the ONE market you dominate. Sony takes portables and you've handed away your safest, richest turf. Why would you do this."
+        }
+      ]
+    },
+    {
+      "scenario": "Next console, your team pitches motion controls, a weak GPU, and a low price — codename 'Revolution.' It won't do cutting-edge graphics and hardcore reviewers will absolutely roast it.",
+      "year": 2005,
+      "realValuationB": 25,
+      "choices": [
+        {
+          "text": "Bet on motion controls and a cheap weak box",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.7,
+          "reveal": "The Wii launched in 2006 with motion controls and potato hardware — and outsold the way-more-powerful PS3 and Xbox 360 for YEARS, landing in living rooms that never owned a console. Certified phenomenon."
+        },
+        {
+          "text": "Build a graphics powerhouse to match the rivals",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You match Sony and Microsoft on power, sell at a loss like them, and dissolve into a three-way spec war. Grandma never buys a console. No magic."
+        },
+        {
+          "text": "Ship a safe HD console with a normal controller",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: A competent, forgettable box. No motion gimmick means no cultural moment, no Wii Sports mania, no new audience. Mid incarnate."
+        }
+      ]
+    },
+    {
+      "scenario": "Sony and Microsoft sell their consoles at a LOSS to grab share, making it back on games. You can price the Wii to actually profit on every unit at $250.",
+      "year": 2006,
+      "realValuationB": 40,
+      "choices": [
+        {
+          "text": "Price at $250, profitable from unit one",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Cheaper hardware meant Nintendo profited on every single Wii from day one — nearly unheard of. It printed money while rivals bled on each box. Silent flex."
+        },
+        {
+          "text": "Sell at a loss to max out install base",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You copy the rivals' loss-leader math and toss away the Wii's biggest financial edge. Growth you overpay for. Why."
+        },
+        {
+          "text": "Price it premium at $400 to signal quality",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: A $400 underpowered console is a rough sell, chief. The mass-market buyers you were counting on stay home."
+        }
+      ]
+    },
+    {
+      "scenario": "Market the Wii to the usual hardcore gamers, or aim straight at families, grandparents, and total newbies — bundling a simple game called Wii Sports so anyone can pick it up in seconds.",
+      "year": 2006,
+      "realValuationB": 55,
+      "choices": [
+        {
+          "text": "Target families and non-gamers, bundle Wii Sports",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Nintendo bundled Wii Sports and marketed to literally everyone, kids to grandparents. It became a social phenomenon and one of the best-selling games of all time. Everyone's mom had a Wii."
+        },
+        {
+          "text": "Market only to core gamers like the rivals",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You scrap for the same hardcore buyers with weaker hardware. The audience that made the Wii a cultural event never gets the invite."
+        },
+        {
+          "text": "Skip the pack-in game to protect software sales",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: No Wii Sports in the box, so first-timers have nothing that instantly shows what this thing DOES. The motion magic stays trapped on the store shelf."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$90B", "line": "You changed the game instead of losing it. Legend episode: WON. No notes."},
+      {"minWorked": 2, "valuation": "$30B", "line": "A solid third-place console maker. Alive, never the phenomenon. Mid."},
+      {"minWorked": 0, "valuation": "$10B", "line": "You fought the spec war and lost it. 💀"}
+    ],
+    "ctaTicker": "NTDOY",
+    "ctaLine": "Nintendo 5x'd by refusing the arms race. Today's agents flagged a company winning a game nobody else is playing →"
+  }
+}

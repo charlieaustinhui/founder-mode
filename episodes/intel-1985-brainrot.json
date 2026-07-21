@@ -1,0 +1,166 @@
+{
+  "id": "intel-1985-brainrot",
+  "mode": "legend",
+  "company": "Intel",
+  "year": 1985,
+  "accent": "#0071c5",
+  "intro": "1985. Intel invented the memory chip and now it's getting bodied — Japanese manufacturers are dumping DRAM below cost and you lose money on every single chip. Memory is your whole personality. You run Intel, and your president just asked a question that's about to ruin your week.",
+  "realOutcome": {
+    "valuation": "peaked near $300B",
+    "summary": "Intel abandoned the business it literally invented and became the king of processors. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Andy Grove", "foil": "sentimental attachment" },
+  "startValuationB": 4,
+  "finalRealValuationB": 50,
+  "decisions": [
+    {
+      "scenario": "Andy Grove turns to Gordon Moore and asks: if the board fired us and hired a new CEO, what would he do? The answer is obvious and painful — get out of memory, the business that MADE Intel.",
+      "year": 1985,
+      "realValuationB": 4,
+      "choices": [
+        {
+          "text": "Exit DRAM entirely. Walk out the door and back in.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Grove and Moore literally did this — pretended new leadership walked in and killed memory. Torching Intel's founding product freed it to bet on something way bigger. Cold-blooded and correct."
+        },
+        {
+          "text": "Keep fighting in memory, it's who we ARE",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You defend an identity, not a business. The dumping continues, losses stack, and Intel bleeds out protecting a commodity it cannot win. Sunk-cost arc."
+        },
+        {
+          "text": "Merge with a Japanese rival to survive memory",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You handcuff yourself to a race to the bottom. Memory becomes worth pennies and the microprocessor future goes to someone with a spine."
+        }
+      ]
+    },
+    {
+      "scenario": "If you leave memory, you need a new bet-the-company product. The microprocessor — the 386 — looks promising but it's unproven as the whole business.",
+      "year": 1986,
+      "realValuationB": 3,
+      "choices": [
+        {
+          "text": "All-in on microprocessors and the 386",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "Intel bet the entire company on the microprocessor. The 386 and its kids became the brain of the PC revolution and one of the most profitable products ever made. Called it."
+        },
+        {
+          "text": "Hedge across a bunch of small product lines",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You spread thin to feel safe and master nothing. Focus was the entire point; a pile of hedges never becomes the standard the industry runs on."
+        },
+        {
+          "text": "Become a contract fab building other people's chips",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You quit designing the product and just manufacture other people's ideas. You hand away the architecture worth hundreds of billions. Big yikes."
+        }
+      ]
+    },
+    {
+      "scenario": "The pivot needs a blood sacrifice. To fund the microprocessor bet and stop the memory bleeding, you'd have to lay off roughly a third of the company.",
+      "year": 1986,
+      "realValuationB": 3,
+      "choices": [
+        {
+          "text": "Make the deep cuts to fund the pivot",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "Intel made brutal deep layoffs to survive the transition. Awful, but it freed the capital and focus to win microprocessors decisively. Necessary evil, executed."
+        },
+        {
+          "text": "Protect headcount, pivot slowly",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You spare jobs and starve the new bet. A slow pivot in a fast industry means you show up to the microprocessor party after it's already over."
+        },
+        {
+          "text": "Freeze everything and wait for the market to turn",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: The memory market never turns your way. Waiting just burns the runway you needed for the actual fight."
+        }
+      ]
+    },
+    {
+      "scenario": "Your chips are invisible inside other companies' computers. You could try something no component maker has ever done: brand the PART itself to consumers, so people ask for it by name.",
+      "year": 1991,
+      "realValuationB": 15,
+      "choices": [
+        {
+          "text": "Launch 'Intel Inside' co-marketing",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "The 'Intel Inside' campaign (1991) made buyers demand a specific invisible component. It turned a commodity into a premium brand and handed Intel pricing power for DECADES. Marketing GOAT behavior."
+        },
+        {
+          "text": "Stay invisible inside the box",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You stay an anonymous supplier at the mercy of PC makers' purchasing teams. No brand = no premium = no leverage. NPC energy."
+        },
+        {
+          "text": "Only market to PC manufacturers, not consumers",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: You court the buyers instead of creating consumer pull. Without end users demanding Intel by name, you're just one of several swappable chip vendors."
+        }
+      ]
+    },
+    {
+      "scenario": "A subtle math bug shows up in your flagship Pentium chip. Basically nobody hits it in real life, but it's spreading online and the press smells blood. A full recall would cost a fortune.",
+      "year": 1994,
+      "realValuationB": 50,
+      "choices": [
+        {
+          "text": "Full no-questions recall, whatever it costs",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "After first resisting, Intel offered a full no-questions replacement and ate a ~$475M charge on the FDIV bug. The trust it bought was worth WAY more than the money. Ate the L to keep the W."
+        },
+        {
+          "text": "Only replace chips for 'genuinely affected' users",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You make customers prove they deserve a fix. The condescension BECOMES the story, and the brand you built for years takes the hit instead of the chip. Ratio incoming."
+        },
+        {
+          "text": "Deny the bug matters and wait it out",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: Stonewalling turns a minor flaw into a referendum on your honesty. In the new online era that's a fire no press release can put out. Streisand effect speedrun."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$70B", "line": "You killed your own founding business and won the future. Legend episode: WON. Ice cold."},
+      {"minWorked": 2, "valuation": "$25B", "line": "A solid chip company — but not the brain of the whole PC era. Mid."},
+      {"minWorked": 0, "valuation": "$4B", "line": "You died defending the memory business. 💀"}
+    ],
+    "ctaTicker": "INTC",
+    "ctaLine": "Intel 12x'd by abandoning its own invention. Today's agents flagged a company clinging to a dying core →"
+  }
+}

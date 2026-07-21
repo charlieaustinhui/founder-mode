@@ -1,0 +1,166 @@
+{
+  "id": "lego-2004-brainrot",
+  "mode": "legend",
+  "company": "Lego",
+  "year": 2004,
+  "accent": "#d01012",
+  "intro": "2004. Lego is basically bankrupt. Years of chasing theme parks, clothing lines, video games, and increasingly cursed mega-sets buried the company in complexity and debt. You just became the first CEO from outside the founding family. Everyone forgot the little brick that built the whole thing.",
+  "realOutcome": {
+    "valuation": "became the world's largest toymaker, valued at $15B+",
+    "summary": "Lego went from nearly bankrupt to the most profitable toy company on Earth. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Jørgen Vig Knudstorp", "foil": "diversification for its own sake" },
+  "startValuationB": 1,
+  "finalRealValuationB": 12,
+  "decisions": [
+    {
+      "scenario": "Lego has sprawled into theme parks, apparel, video games, and thousands of specialized products, losing hundreds of millions a year. Double down on being a 'lifestyle brand' — or go back to the brick?",
+      "year": 2004,
+      "realValuationB": 1,
+      "choices": [
+        {
+          "text": "Refocus on the core brick, cut the sprawl",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Knudstorp took Lego back to basics — the brick and building play — and axed the distractions. Remembering what Lego is actually FOR became the spine of the whole turnaround. Touch grass, find brick."
+        },
+        {
+          "text": "Keep expanding into parks, clothes, and games",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: You chase 'lifestyle brand' while losing money on all of it. Spread across a dozen industries you don't understand, Lego runs dry defending its own confusion. Diworsification."
+        },
+        {
+          "text": "Sell the whole company to a rival toymaker",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You hand a beloved brand to a conglomerate that strips it for parts. The magic that could've been revived dies in a spreadsheet. Rip Bozo."
+        }
+      ]
+    },
+    {
+      "scenario": "You need cash AND focus. The Legoland parks are capital-hungry and nowhere near your core. Sell them to raise money, or keep running an amusement-park business?",
+      "year": 2005,
+      "realValuationB": 2,
+      "choices": [
+        {
+          "text": "Sell the Legoland parks to raise cash",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Lego sold a majority stake in the Legoland parks to private equity in 2005. Raised cash and let the company get back to making toys instead of running roller coasters. Smart offload."
+        },
+        {
+          "text": "Keep the parks, borrow more to fund them",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You take on more debt to run a capital-hungry business you're not built for. The parks drain the exact cash the toy turnaround needs. Money pit."
+        },
+        {
+          "text": "Aggressively franchise the parks worldwide",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: You double down on parks while the toy business is dying. Expanding a distraction is not the same as fixing the core, chief."
+        }
+      ]
+    },
+    {
+      "scenario": "Your designers keep inventing unique specialized pieces — the catalog ballooned to ~13,000 different elements — and the cost and complexity are crushing you.",
+      "year": 2005,
+      "realValuationB": 2,
+      "choices": [
+        {
+          "text": "Halve the number of unique pieces",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Lego cut its unique elements from ~13,000 toward 7,000. Fewer parts = lower cost, simpler manufacturing, and pieces reusable across tons of sets. Less is more, unironically."
+        },
+        {
+          "text": "Keep every specialty piece for creative freedom",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You protect designer freedom AND the runaway complexity that nearly bankrupted you. Every new bespoke piece is another bill you can't pay."
+        },
+        {
+          "text": "Outsource design to cut costs faster",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You cut cost by cutting quality and control. The thing that makes Lego LEGO — the precision and craft — starts slipping. Enshittification incoming."
+        }
+      ]
+    },
+    {
+      "scenario": "There's an audience Lego treated as a footnote: adult superfans, and licensed sets tied to franchises like Star Wars. Lean into them, or stay strictly a little-kids toy company?",
+      "year": 2008,
+      "realValuationB": 5,
+      "choices": [
+        {
+          "text": "Lean into licensing and adult superfans",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Lego embraced licensed sets and its obsessive adult fanbase, even crowdsourcing designs via Lego Ideas. Those grown-up fans and franchises became a huge high-margin engine. AFOLs carried the team."
+        },
+        {
+          "text": "Stay strictly a young-kids brand",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You ignore the adults dropping hundreds on giant sets and the franchises that pull them in. You leave your most profitable customers on read."
+        },
+        {
+          "text": "Drop all licenses to save on royalties",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You cut Star Wars and other licenses to dodge royalties — and lose the sets that bring millions of fans to the brand. Saved pennies, lost the fandom."
+        }
+      ]
+    },
+    {
+      "scenario": "A movie studio pitches a full feature film built entirely around Lego. Could be a beloved blockbuster — or a 90-minute toy commercial that cheapens the whole brand.",
+      "year": 2014,
+      "realValuationB": 10,
+      "choices": [
+        {
+          "text": "Make The Lego Movie",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "The Lego Movie (2014) was a critical and commercial smash — 'Everything Is Awesome' lived in your head rent-free — that celebrated creativity and drove massive set sales. The risky film became one of the best marketing moves ever."
+        },
+        {
+          "text": "Keep the brand off the big screen to stay safe",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: You play it safe and pass on a cultural moment. A great film that could've introduced Lego to a whole new generation just never gets made. Played it too safe."
+        },
+        {
+          "text": "License the film out and lose creative control",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You let someone else make a cheap Lego movie with zero care for the brand. It becomes the exact 90-minute ad you were scared of. Self-fulfilling prophecy."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$15B", "line": "You went back to the brick and rebuilt an empire. Legend episode: WON. Everything is awesome."},
+      {"minWorked": 2, "valuation": "$5B", "line": "Stabilized and profitable, never the world's #1 toymaker. Mid."},
+      {"minWorked": 0, "valuation": "$1B", "line": "Diversified into bankruptcy. The brick forgotten. 💀"}
+    ],
+    "ctaTicker": "LEGO",
+    "ctaLine": "Lego 10x'd by returning to its core. Today's agents flagged a company that diversified itself into a crisis →"
+  }
+}

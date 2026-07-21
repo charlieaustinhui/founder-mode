@@ -1,0 +1,166 @@
+{
+  "id": "yahoo-2008-brainrot",
+  "mode": "villain",
+  "company": "Yahoo",
+  "year": 2008,
+  "accent": "#6001d2",
+  "intro": "February 2008. You run Yahoo, still one of the biggest sites on the internet (for now). Microsoft just slapped $44.6 BILLION on the table to buy you — a massive premium over your sad little stock. Your co-founder is convinced you're worth way more. Foreshadowing intensifies.",
+  "realOutcome": {
+    "valuation": "core business sold to Verizon for $4.8B in 2016",
+    "summary": "Yahoo turned down a $44.6B offer and later sold its core for roughly a tenth of that. Every 'what actually happened' below is real. Genuinely painful."
+  },
+  "identity": { "historic": "Yahoo's leadership", "foil": "every buyer they turned down" },
+  "startValuationB": 40,
+  "finalRealValuationB": 5,
+  "decisions": [
+    {
+      "scenario": "A tiny fast-growing social site called Facebook will sell for about $1 billion. Its 22-year-old founder is on the fence, and your gut says that's way too much for a college website.",
+      "year": 2006,
+      "realValuationB": 40,
+      "choices": [
+        {
+          "text": "Lowball to ~$850M, it's just a college site lol",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "Yahoo agreed to ~$1B, then tried to chop it to $850M after a bad quarter. Zuckerberg walked. Facebook is now worth 1,000x+ that. Fumble of the century, part one."
+        },
+        {
+          "text": "Pay the full $1B and close it clean",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "ALTERNATE TIMELINE: You own the social graph before it goes nuclear. Yahoo becomes the home of the social web instead of a dusty portal. Big W."
+        },
+        {
+          "text": "Offer $2B so it's impossible to refuse",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You 'overpay' by 2006 standards and look reckless — for about a year, until it becomes the greatest acquisition in tech history."
+        }
+      ]
+    },
+    {
+      "scenario": "Microsoft's official offer: $44.6 billion, ~$31 a share, a gigantic premium. Deal of a lifetime or humiliating surrender, depending who you ask.",
+      "year": 2008,
+      "realValuationB": 25,
+      "choices": [
+        {
+          "text": "Reject it. We're worth WAY more than $31.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "Yahoo rejected the $44.6B as 'too low.' The stock never sniffed $31 again and the company later sold for a fraction of it. Turned down the bag of a lifetime. Catastrophic."
+        },
+        {
+          "text": "Take the $44.6 billion",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You hand shareholders a massive premium at the literal top. In hindsight it's the best price Yahoo would ever be offered by anyone, ever."
+        },
+        {
+          "text": "Negotiate up to ~$35 and close",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: Microsoft reportedly would've gone higher. You squeeze out more AND get out at the peak. Everyone eats except the Bing team."
+        }
+      ]
+    },
+    {
+      "scenario": "Having ghosted Microsoft, you need a growth story fast. Google offers to power your search ads — easy money that leans on your biggest rival.",
+      "year": 2008,
+      "realValuationB": 22,
+      "choices": [
+        {
+          "text": "Sign the search-ad deal with Google",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "Yahoo struck a search deal with Google to prove it didn't need Microsoft. Regulators threatened antitrust, the deal collapsed, and Yahoo was left with nothing AND no Microsoft offer to crawl back to. Double L."
+        },
+        {
+          "text": "Crawl back and close the Microsoft deal anyway",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You swallow the ego while the offer's still warm. Shareholders get their premium and the whole Yahoo decline just... doesn't happen."
+        },
+        {
+          "text": "Double down and reinvest in your own search",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.1,
+          "reveal": "ALTERNATE TIMELINE: Hard and pricey, but you keep the one asset — search data — that actually compounds. Yahoo stays a real tech company instead of a landlord."
+        }
+      ]
+    },
+    {
+      "scenario": "Your new CEO wants to stop spending on search entirely. Microsoft offers a 10-year deal to secretly run Yahoo's search with Bing.",
+      "year": 2009,
+      "realValuationB": 20,
+      "choices": [
+        {
+          "text": "Hand search to Bing for a decade",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "Yahoo outsourced search to Bing in 2009, giving up its own search tech and data to save a buck. It surrendered the exact business that turned Google into a titan. Gave away the golden goose."
+        },
+        {
+          "text": "Keep search in-house and reinvest",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: Owning your search data keeps you in the only game that matters online. You stay internet infrastructure, not a content site renting out its own brain."
+        },
+        {
+          "text": "Spin search into a JV you control",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.1,
+          "reveal": "ALTERNATE TIMELINE: You get help with the bills while keeping the strategic asset AND the upside. A middle path that doesn't amputate your own future."
+        }
+      ]
+    },
+    {
+      "scenario": "A new CEO shows up promising a turnaround. Realistically: keep buying shiny startups, or admit your Alibaba stake is now worth more than all of Yahoo combined.",
+      "year": 2013,
+      "realValuationB": 15,
+      "choices": [
+        {
+          "text": "Buy Tumblr for $1.1B and coast on Alibaba",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "Yahoo bought Tumblr for $1.1B in 2013 and later wrote almost all of it off. The company became an Alibaba-stake wrapper with a struggling website duct-taped on. Rip."
+        },
+        {
+          "text": "Spin off the Alibaba stake, return the cash",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: You stop pretending the core biz is the value and hand shareholders the Alibaba bag cleanly. Honest and higher-value. Adult behavior."
+        },
+        {
+          "text": "Refocus everything on one product you can win",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.1,
+          "reveal": "ALTERNATE TIMELINE: Instead of buying attention, you rebuild one franchise — mail, finance, sports — into something people actually pick. Focus > acquisition sprees."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$120B", "line": "You sold high or bought the future. Villain episode: WON. No notes."},
+      {"minWorked": 2, "valuation": "$30B", "line": "Diminished but standing — a real company, not a holding vehicle. Mid."},
+      {"minWorked": 0, "valuation": "$5B", "line": "Turned down $44.6B, sold for $4.8B. Faithful to history. 💀"}
+    ],
+    "ctaTicker": "MSFT",
+    "ctaLine": "Microsoft's spurned bid looks like a gift now. Today's agents flagged a company turning down its best exit →"
+  }
+}

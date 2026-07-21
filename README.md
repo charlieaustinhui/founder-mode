@@ -1,6 +1,8 @@
 # Founder Mode
 
-A daily story game. You step into the shoes of a real CEO at a real turning point — Blockbuster 2000, Apple 1997, Kodak 1975, Netflix 2011 — and make the five decisions that defined the company. Wrong choices spawn counterfactual timelines. The ending shows what your company became under your leadership vs. reality.
+A daily story game. You step into the shoes of a real CEO at a real turning point — Blockbuster 2000, Apple 1997, Netflix 2011, Amazon 2001, Nokia 2007, Tesla 2008, Intel 1985, Marvel 1998, and more — and make the five decisions that defined the company. Wrong choices spawn counterfactual timelines. The ending shows what your company became under your leadership vs. reality.
+
+Currently 18 episodes (each with a "brainrot" tone variant) rotating one per day.
 
 **Play:** every day rotates a new episode. Same episode for all players.
 

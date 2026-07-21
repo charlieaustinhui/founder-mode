@@ -1,0 +1,166 @@
+{
+  "id": "ibm-1993-brainrot",
+  "mode": "legend",
+  "company": "IBM",
+  "year": 1993,
+  "accent": "#1f70c1",
+  "intro": "1993. IBM just posted an $8 BILLION loss — biggest in American corporate history at the time. Wall Street, the press, and your own board all agree: chop the company into pieces and sell them for parts. You just got hired from OUTSIDE to run IBM, and something in your gut says everyone's wrong.",
+  "realOutcome": {
+    "valuation": "passed $200B after the turnaround",
+    "summary": "IBM got left for dead and pulled off one of the great corporate comebacks. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Lou Gerstner", "foil": "the breakup consultants" },
+  "startValuationB": 30,
+  "finalRealValuationB": 90,
+  "decisions": [
+    {
+      "scenario": "The consensus plan: split IBM into independent 'Baby Blues' — separate companies for mainframes, PCs, printers, storage. Everyone just assumes the parts are worth more than the whole.",
+      "year": 1993,
+      "realValuationB": 30,
+      "choices": [
+        {
+          "text": "Keep IBM whole — the integration IS the value",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "Gerstner cancelled the breakup, betting customers wanted ONE company to integrate their whole stack. Keeping IBM unified became the entire foundation of the turnaround. Read the room when nobody else could."
+        },
+        {
+          "text": "Split into independent 'Baby Blue' companies",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: The pieces fight alone in commoditizing markets. The one thing IBM could offer that nobody else could — end-to-end integration — gets nuked by the breakup itself. Self-destruct."
+        },
+        {
+          "text": "Sell off the mainframe business for quick cash",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You sell the profitable core that funds everything else to please the quarter. Cash runs out, spine goes with it. Sold the engine to buy gas."
+        }
+      ]
+    },
+    {
+      "scenario": "The bleeding has to stop. Turning this around means cutting deep — laying off tens of thousands, on top of cuts already made.",
+      "year": 1993,
+      "realValuationB": 30,
+      "choices": [
+        {
+          "text": "Make the deep cuts to stop the $8B bleed",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Gerstner made painful but necessary layoffs to stabilize the ship. Survival first — you can't transform a company that runs out of money. Ate the hard part on day one."
+        },
+        {
+          "text": "Protect jobs, cut costs slowly",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You spare people short-term and the losses eat the company alive. A slower bleed is still a bleed-out. Kindness that kills."
+        },
+        {
+          "text": "Freeze everything and wait for revenue to return",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: The revenue doesn't magically come back. Waiting just burns the cash you needed to actually change the business. Malding at the P&L."
+        }
+      ]
+    },
+    {
+      "scenario": "IBM's whole identity is selling hardware boxes, but those margins are collapsing. You could reinvent the company around SERVICES — helping customers make all their tech actually work together.",
+      "year": 1994,
+      "realValuationB": 45,
+      "choices": [
+        {
+          "text": "Build IBM Global Services as the growth engine",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "IBM pivoted from selling boxes to selling services and integration. IBM Global Services became the biggest part of the company and the engine of the whole resurgence. Found the second act."
+        },
+        {
+          "text": "Stay a hardware company, defend margins",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You cling to commoditizing hardware as prices fall forever. Dell wins the box war and IBM never finds a second act. Stuck in the past tense."
+        },
+        {
+          "text": "Chase consumer PCs for volume and buzz",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You brawl in a brutal low-margin consumer PC war instead of building the high-margin services business your enterprise relationships hand you for free."
+        }
+      ]
+    },
+    {
+      "scenario": "The internet is arriving. Bet IBM's future on open standards and 'e-business,' or push your own proprietary systems the way IBM always has?",
+      "year": 1995,
+      "realValuationB": 70,
+      "choices": [
+        {
+          "text": "Embrace open standards and 'e-business'",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "IBM bet early and hard on the internet, literally coining 'e-business' and backing open standards and Java. It became the company that could get any enterprise online. Caught the wave early."
+        },
+        {
+          "text": "Push proprietary networks and systems instead",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You fight the open internet with closed IBM standards. Customers route around you to the open web and IBM looks like a relic. Fighting the ocean."
+        },
+        {
+          "text": "Dismiss the internet as an overhyped fad",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You wait out 'the internet thing.' By the time you admit it's real, the startups have taken the business you should've owned. Slept through the alarm."
+        }
+      ]
+    },
+    {
+      "scenario": "IBM's culture is STIFF — a dress code, internal holy wars over OS/2 vs Windows, 'the way we've always done it.' Enforce the old sacred cows or slaughter them to serve what customers actually want?",
+      "year": 1997,
+      "realValuationB": 85,
+      "choices": [
+        {
+          "text": "Kill the sacred cows, sell what customers want",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "Gerstner deprioritized losing crusades like OS/2, loosened the rigid culture, and reoriented IBM around customers instead of dogma. Ending the holy wars freed the company to grow. Touched grass, corporate edition."
+        },
+        {
+          "text": "Keep fighting Microsoft on the desktop with OS/2",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You dump resources into a desktop war you already lost. Pride in OS/2 costs you the focus you needed for services and the internet. Copium as a strategy."
+        },
+        {
+          "text": "Protect the legacy culture and the dress code",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: You preserve the rituals of old IBM and the exact mindset that nearly killed it. Culture eats the turnaround for breakfast. Tradition speedrun to the grave."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$120B", "line": "You refused the breakup and rebuilt a giant. Legend episode: WON. No notes."},
+      {"minWorked": 2, "valuation": "$50B", "line": "Stabilized, never fully transformed. A survivor, not a comeback. Mid."},
+      {"minWorked": 0, "valuation": "$20B", "line": "Broken up and sold for parts. 💀"}
+    ],
+    "ctaTicker": "IBM",
+    "ctaLine": "IBM tripled by refusing to break itself up. Today's agents flagged a giant everyone wants dismantled →"
+  }
+}

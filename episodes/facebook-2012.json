@@ -1,0 +1,166 @@
+{
+  "id": "facebook-2012",
+  "mode": "legend",
+  "company": "Facebook",
+  "year": 2012,
+  "accent": "#1877f2",
+  "intro": "May 2012. You just took Facebook public — and the stock is collapsing, from $38 toward $18. The problem is existential: a billion people are moving to phones, and Facebook makes almost no money on mobile. You run Facebook, and the market thinks you missed the most important shift of the decade.",
+  "realOutcome": {
+    "valuation": "surpassed $1T as Meta",
+    "summary": "Facebook was written off as a desktop dinosaur and became a mobile-advertising giant. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Mark Zuckerberg", "foil": "IPO-day short sellers" },
+  "startValuationB": 50,
+  "finalRealValuationB": 220,
+  "decisions": [
+    {
+      "scenario": "Your revenue comes from desktop ads, but your users are leaving for phones where you barely monetize. You can reorient the entire company around mobile — a wrenching change — or defend the desktop cash cow.",
+      "year": 2012,
+      "realValuationB": 50,
+      "choices": [
+        {
+          "text": "Order a company-wide 'mobile first' pivot.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "Zuckerberg forced the whole company to reorganize around mobile, even pulling engineers off desktop features. Mobile ads went from nearly nothing to the vast majority of Facebook's revenue."
+        },
+        {
+          "text": "Defend the desktop advertising cash cow.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You protect today's revenue while your users migrate to a screen you can't monetize. Facebook slowly becomes a website people used to check on their computers."
+        },
+        {
+          "text": "Rush a Facebook-branded phone to market.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You try to own the hardware and ship a phone nobody wants. (Facebook actually tried a version of this with 'Facebook Home' — it flopped.) The answer was software, not a phone."
+        }
+      ]
+    },
+    {
+      "scenario": "A photo-sharing app called Instagram has exploded — with 13 employees and no revenue. You can buy it for about $1 billion, a price the press will call insane for a company that makes no money.",
+      "year": 2012,
+      "realValuationB": 60,
+      "choices": [
+        {
+          "text": "Buy Instagram for $1B.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.7,
+          "reveal": "Facebook bought Instagram for about $1B in 2012, mocked at the time as a wild overpay. It became one of the best acquisitions in history and a pillar of the company worth many times the price."
+        },
+        {
+          "text": "Build a photo app in-house instead.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You try to clone Instagram rather than buy it. It keeps growing independently, gets bought by a rival, and becomes the competitor that eats your young users."
+        },
+        {
+          "text": "Ignore Instagram as a passing fad.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You dismiss a rocket ship. Instagram becomes the platform where the next generation actually lives, and you don't own a share of it."
+        }
+      ]
+    },
+    {
+      "scenario": "You need to make money on mobile without wrecking the experience. You can put ads directly into the mobile News Feed — risky, but native — or keep ads in the safe old desktop sidebar.",
+      "year": 2013,
+      "realValuationB": 120,
+      "choices": [
+        {
+          "text": "Put ads natively in the mobile News Feed.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "Facebook put ads directly into the mobile feed, a format that felt native and performed spectacularly. It solved the mobile-money problem and became one of the most effective ad products ever built."
+        },
+        {
+          "text": "Keep ads in the desktop sidebar only.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You keep ads off mobile to protect the experience, and keep making no money where all your users are. A great experience with no business model."
+        },
+        {
+          "text": "Build the 'Facebook Home' phone skin instead.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You chase owning the phone's home screen instead of nailing feed ads. (Facebook Home really shipped in 2013 and failed fast.) You solve the wrong problem."
+        }
+      ]
+    },
+    {
+      "scenario": "A messaging app called WhatsApp has half a billion users and is spreading globally. It could become a rival platform. Buying it would cost a staggering $19 billion.",
+      "year": 2014,
+      "realValuationB": 200,
+      "choices": [
+        {
+          "text": "Buy WhatsApp for $19B to own messaging.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Facebook bought WhatsApp for $19B in 2014 — a jaw-dropping sum. It locked up global messaging, kept a potential rival out of enemy hands, and grew past two billion users."
+        },
+        {
+          "text": "Build your own messenger and out-compete them.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You try to beat WhatsApp instead of buying it. It stays independent, a rival acquires it, and you've handed a competitor a direct line to billions of phones."
+        },
+        {
+          "text": "Let a rival buy WhatsApp; it's too expensive.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: Google or another giant scoops up WhatsApp. Global messaging — and the relationships of billions of users — belongs to your enemy now."
+        }
+      ]
+    },
+    {
+      "scenario": "You own Instagram and WhatsApp. Some executives want to fold them into the main Facebook app immediately to boost the core numbers. Others say let them run on their own.",
+      "year": 2014,
+      "realValuationB": 215,
+      "choices": [
+        {
+          "text": "Let the acquired apps run independently.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "Facebook let Instagram and WhatsApp keep their own teams, cultures, and products for years. Autonomy let them grow to billions of users each instead of being smothered by the mothership."
+        },
+        {
+          "text": "Fold them into the main Facebook app now.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You cram your new apps into Facebook to juice engagement, and break what made them special. Forced integration kills the golden geese you just paid billions for."
+        },
+        {
+          "text": "Shut them down to push everyone to Facebook.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: You kill your own acquisitions to protect the flagship. You spent billions to eliminate rivals and then eliminated the value along with them."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$300B", "line": "You turned the mobile threat into a mobile empire. Legend episode: WON."},
+      {"minWorked": 2, "valuation": "$120B", "line": "A solid social company — but not the platform that owns your phone."},
+      {"minWorked": 0, "valuation": "$50B", "line": "A desktop dinosaur the phones left behind. 💀"}
+    ],
+    "ctaTicker": "META",
+    "ctaLine": "Facebook 20x'd after this fork. Today's agents flagged a company told it missed the next platform →"
+  }
+}

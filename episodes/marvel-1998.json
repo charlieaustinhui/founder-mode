@@ -1,0 +1,166 @@
+{
+  "id": "marvel-1998",
+  "mode": "legend",
+  "company": "Marvel",
+  "year": 1998,
+  "accent": "#ed1d24",
+  "intro": "1998. Marvel just clawed out of bankruptcy. You own the greatest library of characters in entertainment — Spider-Man, the X-Men, Iron Man — and almost no cash. Hollywood thinks comic-book movies are a joke. You run Marvel, and you're going to prove them wrong the hard way.",
+  "realOutcome": {
+    "valuation": "sold to Disney for $4B; the MCU has grossed $30B+",
+    "summary": "Marvel went from bankruptcy to inventing the biggest franchise in film history. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Marvel's leadership", "foil": "the bankruptcy court" },
+  "startValuationB": 0.25,
+  "finalRealValuationB": 4,
+  "decisions": [
+    {
+      "scenario": "You're broke and need cash immediately. Studios will pay upfront to license your characters — Fox wants the X-Men, Sony wants Spider-Man — but the terms are lopsided in their favor.",
+      "year": 1998,
+      "realValuationB": 0.25,
+      "choices": [
+        {
+          "text": "License characters to studios to survive.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.8,
+          "reveal": "Marvel licensed its heroes — X-Men to Fox, Spider-Man to Sony — for upfront cash and small royalties. The deals were lopsided, but they kept the lights on and proved the characters could carry blockbusters."
+        },
+        {
+          "text": "Hold all the rights and wait for a better day.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: You protect the IP and run out of money defending it. A pristine character library owned by a dead company is worth nothing to anyone."
+        },
+        {
+          "text": "Sell the characters outright for a lump sum.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.4,
+          "reveal": "ALTERNATE TIMELINE: You sell the crown jewels for survival cash. Someone else builds the cinematic universe on the heroes that should have been yours."
+        }
+      ]
+    },
+    {
+      "scenario": "X-Men and Spider-Man become giant hits — for the studios. You collect a tiny royalty while others make hundreds of millions on your characters. The math is infuriating.",
+      "year": 2003,
+      "realValuationB": 1,
+      "choices": [
+        {
+          "text": "Realize licensing leaves all the upside on the table.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Marvel watched studios earn fortunes on its characters while it took a sliver. That painful realization set up the boldest move in the company's history."
+        },
+        {
+          "text": "Keep licensing everything cheaply for safe cash.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You stay a low-risk licensing shop forever, collecting crumbs while others feast. Safe, small, and permanently on the sidelines of your own success."
+        },
+        {
+          "text": "Sue the studios to renegotiate the old deals.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You spend years and millions in court instead of building. Even if you win, you've made every future partner wary of dealing with you."
+        }
+      ]
+    },
+    {
+      "scenario": "You want to make your own films and keep the profits. To do it, you'd take a $525M loan from Merrill Lynch, using your remaining characters — including Iron Man — as collateral. If a movie flops, you could lose them.",
+      "year": 2005,
+      "realValuationB": 2,
+      "choices": [
+        {
+          "text": "Take the risky loan and finance your own movies.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 2.0,
+          "reveal": "Marvel took the famous $525M Merrill Lynch loan, pledging characters like Iron Man as collateral, to self-finance its own films. Betting the characters on itself was the whole ballgame."
+        },
+        {
+          "text": "Stay a licensor and never risk the characters.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "ALTERNATE TIMELINE: You play it safe and never control your own films. Marvel Studios, and the $30B universe it builds, simply never exists."
+        },
+        {
+          "text": "Sell to a big studio now while the IP is hot.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: You cash out before proving you can make the movies yourself — and leave almost all the value on the table for the buyer."
+        }
+      ]
+    },
+    {
+      "scenario": "Your first self-made film needs a hero and a star. The safe pick is a famous A-lister and a household-name character. Your team wants to lead with Iron Man — a B-list hero — played by Robert Downey Jr., an actor most studios consider too risky to insure.",
+      "year": 2008,
+      "realValuationB": 3,
+      "choices": [
+        {
+          "text": "Cast Robert Downey Jr. and lead with Iron Man.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 2.2,
+          "reveal": "Marvel bet its first film on a B-list hero and a high-risk actor. Iron Man (2008) was a massive hit, RDJ became the face of a franchise, and the post-credits scene launched a shared universe."
+        },
+        {
+          "text": "Lead with a safe, famous flagship hero instead.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: A generic 'safe' launch gets a generic result. Without RDJ's spark and the audacity of starting with Iron Man, there's no charm and no cultural moment."
+        },
+        {
+          "text": "Cast a cheaper, 'safer' actor to reduce risk.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: You save on the star and lose the soul. The exact chemistry that made Iron Man work — and made the whole universe possible — never happens."
+        }
+      ]
+    },
+    {
+      "scenario": "Iron Man worked. The universe is taking off, and Disney comes calling with a $4B offer to buy the whole company. You could stay independent and keep it all — or take the deal.",
+      "year": 2009,
+      "realValuationB": 4,
+      "choices": [
+        {
+          "text": "Sell to Disney for $4B.",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "Marvel sold to Disney in 2009 for $4B. Disney's resources and distribution turbocharged the MCU into the highest-grossing franchise in film history — a spectacular outcome for a company that had been bankrupt a decade earlier."
+        },
+        {
+          "text": "Stay independent and keep all the upside.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: You keep control but lack Disney's global machine. The MCU grows, but slower and smaller, and you carry all the risk of every expensive bet alone."
+        },
+        {
+          "text": "Sell to a rival studio for less, faster.",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You take a quicker, cheaper exit to a buyer without Disney's reach. The characters end up managed, not unleashed."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$5B", "line": "From bankruptcy to the biggest franchise in film. Legend episode: WON."},
+      {"minWorked": 2, "valuation": "$1.5B", "line": "A healthy licensing business — but never the studio that changed cinema."},
+      {"minWorked": 0, "valuation": "$100M", "line": "You gave the heroes away and stayed broke. 💀"}
+    ],
+    "ctaTicker": "DIS",
+    "ctaLine": "Marvel 16x'd by betting on itself. Today's agents flagged a company sitting on assets it's too scared to use →"
+  }
+}

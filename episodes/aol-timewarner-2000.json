@@ -1,0 +1,166 @@
+{
+  "id": "aol-timewarner-2000",
+  "mode": "villain",
+  "company": "AOL Time Warner",
+  "year": 2000,
+  "accent": "#00457c",
+  "intro": "January 2000. The dot-com bubble is at its absolute peak. AOL, an internet company with an inflated stock, wants to merge with Time Warner, the greatest collection of media assets on Earth. You run Time Warner. They're offering you a fortune in AOL shares. The bubble has weeks to live.",
+  "realOutcome": {
+    "valuation": "the merger destroyed ~$200B in value",
+    "summary": "The AOL-Time Warner merger is widely called the worst in corporate history. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Time Warner's board", "foil": "AOL's bubble stock" },
+  "startValuationB": 165,
+  "finalRealValuationB": 20,
+  "decisions": [
+    {
+      "scenario": "AOL offers to merge in a deal valued around $165 billion, paid largely in its own soaring stock. You'd be trading real media assets — HBO, Warner Bros, CNN, Time — for internet paper priced for perfection.",
+      "year": 2000,
+      "realValuationB": 165,
+      "choices": [
+        {
+          "text": "Take AOL's stock and do the $165B merger.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "Time Warner merged with AOL at the top of the bubble, taking overvalued internet stock for real assets. Within two years the combined company would write down more value than most nations' GDP."
+        },
+        {
+          "text": "Stay independent and build broadband yourself.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You keep your crown-jewel content and build your own path to the internet on your own timeline. When the bubble bursts, you own assets, not vapor."
+        },
+        {
+          "text": "Take a cash deal, not AOL stock.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: If you're going to sell into the bubble, demand cash while the getting is good. You lock in the peak value instead of holding stock that's about to evaporate."
+        }
+      ]
+    },
+    {
+      "scenario": "The merger's whole thesis is AOL's dial-up subscribers plus Time Warner's content. But broadband is coming fast, and dial-up is the past. You can keep milking dial-up or pivot hard.",
+      "year": 2000,
+      "realValuationB": 120,
+      "choices": [
+        {
+          "text": "Keep milking AOL dial-up subscriptions.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "The combined company clung to AOL's dial-up cash cow as broadband exploded. The core synergy of the merger was obsolete almost immediately, and subscribers fled to faster connections."
+        },
+        {
+          "text": "Pivot hard to broadband before it's too late.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You accept dial-up is dying and race into broadband and cable internet. You meet customers where the future is instead of defending where the past was."
+        },
+        {
+          "text": "Open AOL's content to every internet provider.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: You stop walling off your content behind AOL and distribute it everywhere. Reach beats exclusivity when the walled garden is emptying out."
+        }
+      ]
+    },
+    {
+      "scenario": "The two companies are oil and water — freewheeling internet culture versus old-media prestige. Executives are at each other's throats, and talent is starting to leave. You can force integration or let the divisions run.",
+      "year": 2001,
+      "realValuationB": 80,
+      "choices": [
+        {
+          "text": "Force a top-down merger of the two cultures.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "The forced integration produced open warfare between AOL and Time Warner executives. The infighting paralyzed the company and drove out exactly the talent it needed to survive."
+        },
+        {
+          "text": "Let the divisions run semi-independently.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: You stop pretending two opposite cultures must fuse overnight and let each side do what it's good at. Autonomy keeps the talent and the value intact."
+        },
+        {
+          "text": "Unwind the merger early and cut your losses.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You admit the mistake fast and separate the companies before more value burns. The earliest exit from a bad deal is the cheapest one."
+        }
+      ]
+    },
+    {
+      "scenario": "The internet advertising market has collapsed and AOL's value is a fiction. The accountants say you must take a writedown — the only question is how honest and how large.",
+      "year": 2002,
+      "realValuationB": 40,
+      "choices": [
+        {
+          "text": "Take the record ~$99B writedown.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "In 2002 AOL Time Warner wrote down roughly $99B — the largest annual loss in US corporate history. It was the accounting confirmation that the merger had destroyed staggering value."
+        },
+        {
+          "text": "Never have overpaid in the first place.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: There's no $99B hole to fill because you never traded real assets for bubble stock. The writedown that defined an era of hubris simply never happens."
+        },
+        {
+          "text": "Restructure debt and refocus on content.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: You clean up the balance sheet and pour resources back into HBO, Warner, and CNN — the assets that actually make money — instead of propping up AOL."
+        }
+      ]
+    },
+    {
+      "scenario": "The dream is dead. You can slowly, painfully unwind AOL from the company — years too late — or protect what actually still has value.",
+      "year": 2009,
+      "realValuationB": 20,
+      "choices": [
+        {
+          "text": "Spin off a gutted AOL, years too late.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "The company dropped 'AOL' from its name in 2003 and finally spun AOL off in 2009, a shadow of its former self. AOL was later sold to Verizon for $4.4B — a fraction of the merger's phantom value."
+        },
+        {
+          "text": "Keep Time Warner's content crown jewels intact.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You protect HBO, Warner Bros, and CNN through the whole ordeal. When the dust settles, you still own the assets that define modern entertainment."
+        },
+        {
+          "text": "Sell AOL at its 2000 peak instead.",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You offload AOL while its stock is still a fantasy number. Someone else holds the bag when the bubble pops, and Time Warner walks away rich."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$300B", "line": "You dodged the worst merger in history. Villain episode: WON."},
+      {"minWorked": 2, "valuation": "$80B", "line": "Bruised but your crown jewels survived. Not a catastrophe, just a scare."},
+      {"minWorked": 0, "valuation": "$20B", "line": "You traded HBO and CNN for internet vapor. Faithful to history's worst deal. 💀"}
+    ],
+    "ctaTicker": "WBD",
+    "ctaLine": "The merger torched ~$200B. Today's agents flagged a company about to overpay at the top of a bubble →"
+  }
+}

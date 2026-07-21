@@ -1,0 +1,166 @@
+{
+  "id": "cocacola-1985-brainrot",
+  "mode": "villain",
+  "company": "Coca-Cola",
+  "year": 1985,
+  "accent": "#f40009",
+  "intro": "April 1985. Pepsi is winning blind taste tests and it's getting embarrassing. Your researchers cooked up a sweeter formula that beats both Pepsi AND Coke in testing. You run Coca-Cola. You're about to change a 99-year-old recipe Americans treat as basically holy. What could go wrong (everything).",
+  "realOutcome": {
+    "valuation": "grew from ~$4B to $145B under Goizueta",
+    "summary": "New Coke was a legendary faceplant that the company somehow recovered from spectacularly. Every 'what actually happened' below is real."
+  },
+  "identity": { "historic": "Roberto Goizueta", "foil": "the taste-test spreadsheet" },
+  "startValuationB": 14,
+  "finalRealValuationB": 30,
+  "decisions": [
+    {
+      "scenario": "Blind tests say the sweeter formula wins. Replace the classic Coca-Cola recipe with 'New Coke' — or trust that people drink the brand and the FEELING, not just the sugar.",
+      "year": 1985,
+      "realValuationB": 14,
+      "choices": [
+        {
+          "text": "Change the 99-year formula to New Coke",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.8,
+          "reveal": "Coca-Cola reformulated to New Coke in 1985 off taste tests. The tests measured sips, not loyalty — people didn't want a better cola, they wanted THEIR cola. Data said yes, humans said absolutely not."
+        },
+        {
+          "text": "Keep the classic formula, out-market Pepsi",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: You compete on brand and emotion, where Coke is undefeated, instead of on sweetness. No revolt, no crisis, just marketing that mogs."
+        },
+        {
+          "text": "Launch a sweeter flavor NEXT to the original",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You add an option without killing the classic. You grab the sweet-tooth crowd AND keep the loyalists — the exact W New Coke fumbled."
+        }
+      ]
+    },
+    {
+      "scenario": "To fully commit to New Coke, you'd pull original Coca-Cola off shelves entirely. There can only be one.",
+      "year": 1985,
+      "realValuationB": 12,
+      "choices": [
+        {
+          "text": "Discontinue original Coke completely",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "Coca-Cola yanked the original. Instant outrage — protest groups formed, 400,000 angry calls and letters poured in, and people hoarded old Coke like it was gold. The ratio was nationwide."
+        },
+        {
+          "text": "Sell New Coke alongside the original",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: You never take the original away so there's nothing to riot about. Two products quietly split the market instead of one starting a rebellion."
+        },
+        {
+          "text": "Test New Coke in a few cities first",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: A limited rollout exposes the loyalty problem before it goes national. You catch the L in a test market instead of on every front page in America."
+        }
+      ]
+    },
+    {
+      "scenario": "The backlash is a full national event. Talk shows, protests, one guy collecting signatures to bring back the original. Dig in and defend your decision, or reverse FAST?",
+      "year": 1985,
+      "realValuationB": 11,
+      "choices": [
+        {
+          "text": "Reverse fast: bring back 'Coca-Cola Classic'",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.6,
+          "reveal": "After just 79 days, Coca-Cola brought the original back as 'Coca-Cola Classic.' Front-page news, sales surged past pre-New-Coke levels, and the whole disaster flipped into a marketing gift. Redemption arc unlocked."
+        },
+        {
+          "text": "Dig in and defend New Coke to the death",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "ALTERNATE TIMELINE: You mistake stubbornness for strength. Every week you defend New Coke, customers defect to Pepsi and to their own freezers full of the old stuff. Malding publicly."
+        },
+        {
+          "text": "Slowly phase the original back over a year",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: A cautious slow-motion reversal robs you of the dramatic comeback moment. An apology in slow-mo hits different (worse)."
+        }
+      ]
+    },
+    {
+      "scenario": "The press wants to know what in the world happened. Own the whole mess publicly, spin it as secret 4D-chess genius, or say nothing.",
+      "year": 1985,
+      "realValuationB": 13,
+      "choices": [
+        {
+          "text": "Own it: 'We're not that dumb, or that smart'",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "President Donald Keough killed the conspiracy theories with the iconic line that Coke was neither smart enough nor dumb enough to have planned it. Honesty turned humiliation into affection. Rizz."
+        },
+        {
+          "text": "Blame customers for not appreciating the new taste",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "ALTERNATE TIMELINE: You tell your most loyal fans they have bad taste. Nothing revives a boycott faster than a brand that lectures the people it just betrayed. Bold strategy, Cotton."
+        },
+        {
+          "text": "Stay silent and hope it blows over",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.9,
+          "reveal": "ALTERNATE TIMELINE: Silence lets the story write itself, and the story is 'Coke is out of touch.' A comeback needs a voice, not an exec hiding under the desk."
+        }
+      ]
+    },
+    {
+      "scenario": "Crisis survived. Now the real question: what kind of company is Coca-Cola? Press your growing wins — Diet Coke, bottler consolidation — or retreat to just guarding the flagship.",
+      "year": 1986,
+      "realValuationB": 16,
+      "choices": [
+        {
+          "text": "Press the Diet Coke win, consolidate the bottlers",
+          "matchesHistory": true,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "Goizueta pressed forward — Diet Coke became a monster hit, bottler consolidation fattened margins, and Coca-Cola grew from ~$4B to $145B on his watch. Turned the L into an empire."
+        },
+        {
+          "text": "Retreat to protecting only the flagship Coke",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "ALTERNATE TIMELINE: Shell-shocked by New Coke, you play defense forever. Flagship stays safe, and you miss the growth that made Coca-Cola a global juggernaut. Playing scared."
+        },
+        {
+          "text": "Chase random diversification to feel safe",
+          "matchesHistory": false,
+          "works": false,
+          "multiplier": 0.75,
+          "reveal": "ALTERNATE TIMELINE: You buy into businesses you don't understand instead of pressing the beverage empire you already dominate. Distraction cosplaying as prudence."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$45B", "line": "You survived the blunder and grew an empire. Villain episode: WON. Clutch."},
+      {"minWorked": 2, "valuation": "$25B", "line": "Bruised but recovered. Flagship safe, ambition not. Mid."},
+      {"minWorked": 0, "valuation": "$10B", "line": "You broke the most trusted brand in the world. Faithful to history's worst instincts. 💀"}
+    ],
+    "ctaTicker": "KO",
+    "ctaLine": "Coke turned its worst blunder into a comeback. Today's agents flagged a brand trusting the spreadsheet over its fans →"
+  }
+}

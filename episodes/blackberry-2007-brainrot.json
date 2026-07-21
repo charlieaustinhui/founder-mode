@@ -1,0 +1,166 @@
+{
+  "id": "blackberry-2007-brainrot",
+  "mode": "villain",
+  "company": "BlackBerry",
+  "year": 2007,
+  "accent": "#4b6a88",
+  "intro": "2007. You run Research In Motion. The BlackBerry is the phone of presidents and CEOs — the keyboard and secure email are so addictive people call it 'CrackBerry.' Apple just revealed a keyboard-less touchscreen phone. Business will NEVER trust a toy, you tell yourself, sweating slightly.",
+  "realOutcome": {
+    "valuation": "phone business effectively worth zero by 2016",
+    "summary": "BlackBerry went from defining the smartphone to quitting phones entirely. Every 'what actually happened' below is real. Brutal fall."
+  },
+  "identity": { "historic": "RIM's co-CEOs", "foil": "the iPhone" },
+  "startValuationB": 60,
+  "finalRealValuationB": 5,
+  "decisions": [
+    {
+      "scenario": "The iPhone drops. No physical keyboard, weak enterprise security, dogwater battery. Your leadership calls it a consumer toy that serious professionals will laugh at.",
+      "year": 2007,
+      "realValuationB": 60,
+      "choices": [
+        {
+          "text": "Dismiss it. Business needs a keyboard and security.",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.85,
+          "reveal": "RIM's co-CEOs genuinely thought touchscreens were a fad and keyboards + battery life would keep them on top. They were confidently describing their own museum exhibit. Oof."
+        },
+        {
+          "text": "Panic-build a real touchscreen BlackBerry now",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You take the iPhone seriously in 2007 and pair a modern touchscreen with the security enterprises trust. BlackBerry rides the wave UP instead of getting dragged under."
+        },
+        {
+          "text": "Open BBM to every platform while it's still beloved",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: BBM was the messaging app EVERYONE wanted. Freed from BlackBerry hardware in 2007, it's basically WhatsApp before WhatsApp. Generational fumble avoided."
+        }
+      ]
+    },
+    {
+      "scenario": "The pressure to answer the iPhone is insane. You can rush a touchscreen phone — the Storm — out THIS year before it's ready, or take the time to build it properly.",
+      "year": 2008,
+      "realValuationB": 80,
+      "choices": [
+        {
+          "text": "Rush the Storm out to clap back at the iPhone fast",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "The Storm shipped in 2008 with a cursed clicking screen and buggy software. Carriers reportedly returned them in bulk. The rushed clapback hurt the brand worse than saying nothing. Self-report."
+        },
+        {
+          "text": "Take the time to build the touchscreen right",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: A polished first touchscreen — even a year late — protects your reputation for quality instead of nuking it on a half-baked gimmick."
+        },
+        {
+          "text": "Skip touch, go all-in on keyboards + great apps",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.1,
+          "reveal": "ALTERNATE TIMELINE: You own the keyboard niche unapologetically and actually fund a real app store. A smaller but defensible BlackBerry survives with the loyalists."
+        }
+      ]
+    },
+    {
+      "scenario": "Developers are stampeding to Apple's App Store and Android. Your platform is miserable to build for. Invest heavily in apps and dev tools, or protect the crown jewels — email and BBM?",
+      "year": 2010,
+      "realValuationB": 40,
+      "choices": [
+        {
+          "text": "Protect email + BBM, neglect the app ecosystem",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.7,
+          "reveal": "RIM under-invested in apps, betting email and messaging would carry it. But a smartphone with no apps became unsellable and the gap turned into the Grand Canyon. Cope didn't scale."
+        },
+        {
+          "text": "Invest hard in apps and elite dev tools",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You give developers a reason to build for BlackBerry. Apps + your security + the keyboard keep enterprise and power users locked in."
+        },
+        {
+          "text": "Adopt Android to inherit its whole app library",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.4,
+          "reveal": "ALTERNATE TIMELINE: You slap the world's apps onto hardware people already trust for security and typing. BlackBerry becomes THE premium enterprise Android phone."
+        }
+      ]
+    },
+    {
+      "scenario": "You're launching the PlayBook tablet to fight the iPad. Small issue: at launch it won't have a native email app — on a device from the company that literally invented mobile email.",
+      "year": 2011,
+      "realValuationB": 15,
+      "choices": [
+        {
+          "text": "Ship the PlayBook now, no native email",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.55,
+          "reveal": "The PlayBook launched in 2011 with NO native email client — from the email company. It flopped and RIM took a giant writedown on unsold stock. You had one job."
+        },
+        {
+          "text": "Delay until it's actually finished",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.2,
+          "reveal": "ALTERNATE TIMELINE: You hold the launch until the tablet does the ONE thing your brand is famous for. A finished product protects the reputation a broken one torches."
+        },
+        {
+          "text": "Cancel the tablet, focus everything on phones",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.1,
+          "reveal": "ALTERNATE TIMELINE: You refuse to fight Apple on tablets and dump the money into fixing your phone platform, where you still have a puncher's chance."
+        }
+      ]
+    },
+    {
+      "scenario": "It's late. Bet everything on a brand-new OS, BlackBerry 10, arriving YEARS after iOS and Android locked the market — or pivot toward what the company might actually survive as.",
+      "year": 2013,
+      "realValuationB": 5,
+      "choices": [
+        {
+          "text": "Bet the company on BlackBerry 10",
+          "matchesHistory": true,
+          "works": false,
+          "multiplier": 0.6,
+          "reveal": "BB10 launched in 2013 to a market that had fully moved on. Sales were grim, RIM ate a $4.4B loss, and it bailed on consumer phones soon after. Showed up to the party after everyone left."
+        },
+        {
+          "text": "Pivot early to secure software and services",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.5,
+          "reveal": "ALTERNATE TIMELINE: You accept the phone is cooked and become the security/enterprise software company BlackBerry eventually (way too late) became. Doing it in 2013 saves years and billions."
+        },
+        {
+          "text": "Just sell the company at its 2008 peak instead",
+          "matchesHistory": false,
+          "works": true,
+          "multiplier": 1.3,
+          "reveal": "ALTERNATE TIMELINE: You read the room while you're still worth $80B and hand shareholders a massive exit at the top. Selling the top > fighting the tide. Diamond hands are not always the move."
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "bands": [
+      {"minWorked": 4, "valuation": "$150B", "line": "You saw the touchscreen coming and adapted. Villain episode: WON. No notes."},
+      {"minWorked": 2, "valuation": "$40B", "line": "A smaller, focused survivor. Not the king, but not a ghost. Mid."},
+      {"minWorked": 0, "valuation": "$5B", "line": "The keyboard company the touchscreen erased. Faithful to history. 💀"}
+    ],
+    "ctaTicker": "AAPL",
+    "ctaLine": "Apple erased BlackBerry's lead in five years. Today's agents flagged a market leader calling its disruptor a toy →"
+  }
+}

@@ -4,6 +4,20 @@ const EPISODE_SCHEDULE = [
   { classic: "apple-1997", brainrot: "apple-1997-brainrot" },
   { classic: "kodak-1975", brainrot: "kodak-1975-brainrot" },
   { classic: "netflix-2011", brainrot: "netflix-2011-brainrot" },
+  { classic: "amazon-2001", brainrot: "amazon-2001-brainrot" },
+  { classic: "nokia-2007", brainrot: "nokia-2007-brainrot" },
+  { classic: "tesla-2008", brainrot: "tesla-2008-brainrot" },
+  { classic: "yahoo-2008", brainrot: "yahoo-2008-brainrot" },
+  { classic: "nintendo-2003", brainrot: "nintendo-2003-brainrot" },
+  { classic: "blackberry-2007", brainrot: "blackberry-2007-brainrot" },
+  { classic: "intel-1985", brainrot: "intel-1985-brainrot" },
+  { classic: "cocacola-1985", brainrot: "cocacola-1985-brainrot" },
+  { classic: "marvel-1998", brainrot: "marvel-1998-brainrot" },
+  { classic: "xerox-1979", brainrot: "xerox-1979-brainrot" },
+  { classic: "ibm-1993", brainrot: "ibm-1993-brainrot" },
+  { classic: "aol-timewarner-2000", brainrot: "aol-timewarner-2000-brainrot" },
+  { classic: "lego-2004", brainrot: "lego-2004-brainrot" },
+  { classic: "facebook-2012", brainrot: "facebook-2012-brainrot" },
 ];
 const LAUNCH_DATE = "2026-07-18"; // day 1
 const STORAGE_KEY = "founderMode";
